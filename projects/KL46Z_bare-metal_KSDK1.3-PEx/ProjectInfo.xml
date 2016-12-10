@@ -37,16 +37,16 @@
   <PATHS>
     <LinkerCommandFile>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
     <IncludePaths>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\hal\inc\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\hal\src\sim\MKL46Z4\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\system\src\clock\MKL46Z4\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\system\inc\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\osa\inc\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\CMSIS\Include\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\devices\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\devices\MKL46Z4\include\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\utilities\src\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\utilities\inc\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\inc\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\sim\MKL46Z4\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\system\src\clock\MKL46Z4\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\system\inc\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\osa\inc\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\CMSIS\Include\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\devices\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\devices\MKL46Z4\include\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\utilities\src\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\utilities\inc\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\devices\MKL46Z4\startup\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\SDK\platform\devices\MKL46Z4\startup\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\Sources\</Path>
@@ -56,22 +56,22 @@
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\devices\MKL46Z4\startup\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\devices\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\drivers\src\rtc\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\lpsci\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\mcg\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\osc\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\port\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\rtc\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\sim\MKL46Z4\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\uart\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\osa\src\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\system\src\clock\MKL46Z4\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\system\src\clock\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\system\src\interrupt\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\utilities\src\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\Sources\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\Static_Code\System\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\devices\MKL46Z4\startup\gcc\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\hal\src\uart\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\hal\src\lpsci\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\utilities\src\</Path>
-      <Path>C:\Freescale\KDS_v3\eclipse\ProcessorExpert\Repositories\KSDK130_Repository\lib\Kinetis\pex_sdk\src\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\osa\src\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\system\src\interrupt\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\hal\src\port\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\system\src\clock\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\system\src\clock\MKL46Z4\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\drivers\src\rtc\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\hal\src\rtc\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\hal\src\osc\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\hal\src\sim\MKL46Z4\</Path>
-      <Path>C:\Freescale\KSDK_1.3.0\platform\hal\src\mcg\</Path>
     </SourceCodePaths>
   </PATHS>
   <FILES>
@@ -83,26 +83,26 @@
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\pin_init.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\devices\MKL46Z4\startup\system_MKL46Z4.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\devices\startup.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\drivers\src\rtc\fsl_rtc_common.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\lpsci\fsl_lpsci_hal.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\mcg\fsl_mcg_hal.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\mcg\fsl_mcg_hal_modes.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\osc\fsl_osc_hal.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\port\fsl_port_hal.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\rtc\fsl_rtc_hal.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\sim\MKL46Z4\fsl_sim_hal_MKL46Z4.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\uart\fsl_uart_hal.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\osa\src\fsl_os_abstraction_bm.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\system\src\clock\MKL46Z4\fsl_clock_MKL46Z4.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\system\src\clock\fsl_clock_manager.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\system\src\clock\fsl_clock_manager_common.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\system\src\interrupt\fsl_interrupt_manager.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\utilities\src\fsl_debug_console.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\utilities\src\fsl_misc_utilities.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\utilities\src\print_scan.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\Sources\Events.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\Sources\main.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\src\uart\fsl_uart_hal.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\src\lpsci\fsl_lpsci_hal.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\utilities\src\fsl_debug_console.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\utilities\src\fsl_misc_utilities.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\utilities\src\print_scan.c</PathName>
-      <PathName>C:\Freescale\KDS_v3\eclipse\ProcessorExpert\Repositories\KSDK130_Repository\lib\Kinetis\pex_sdk\src\PE_low_level_init.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\osa\src\fsl_os_abstraction_bm.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\system\src\interrupt\fsl_interrupt_manager.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\src\port\fsl_port_hal.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\system\src\clock\fsl_clock_manager.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\system\src\clock\fsl_clock_manager_common.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\system\src\clock\MKL46Z4\fsl_clock_MKL46Z4.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\drivers\src\rtc\fsl_rtc_common.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\src\rtc\fsl_rtc_hal.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\src\osc\fsl_osc_hal.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\src\sim\MKL46Z4\fsl_sim_hal_MKL46Z4.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\src\mcg\fsl_mcg_hal.c</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\src\mcg\fsl_mcg_hal_modes.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\Static_Code\System\PE_low_level_init.c</PathName>
     </GeneratedCs>
     <GeneratedHs>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\Cpu.h</PathName>
@@ -112,37 +112,37 @@
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\clockMan1.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\osa1.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\pin_init.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\CMSIS\Include\arm_common_tables.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\CMSIS\Include\arm_const_structs.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\CMSIS\Include\arm_math.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\CMSIS\Include\core_cm0plus.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\CMSIS\Include\core_cmFunc.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\CMSIS\Include\core_cmInstr.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\CMSIS\Include\core_cmSimd.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\devices\MKL46Z4\include\MKL46Z4.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\devices\MKL46Z4\include\MKL46Z4_extension.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\devices\MKL46Z4\include\MKL46Z4_features.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\devices\MKL46Z4\include\fsl_bitaccess.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\devices\fsl_device_registers.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\devices\startup.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\inc\fsl_lpsci_hal.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\inc\fsl_mcg_hal.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\inc\fsl_mcg_hal_modes.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\inc\fsl_osc_hal.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\inc\fsl_port_hal.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\inc\fsl_rtc_hal.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\inc\fsl_sim_hal.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\inc\fsl_uart_hal.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\hal\src\sim\MKL46Z4\fsl_sim_hal_MKL46Z4.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\osa\inc\fsl_os_abstraction.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\osa\inc\fsl_os_abstraction_bm.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\system\inc\fsl_clock_manager.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\system\inc\fsl_interrupt_manager.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\system\src\clock\MKL46Z4\fsl_clock_MKL46Z4.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\utilities\inc\fsl_debug_console.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\utilities\inc\fsl_misc_utilities.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\utilities\src\print_scan.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\Sources\Events.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\CMSIS\Include\core_cm0plus.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\CMSIS\Include\core_cmSimd.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\CMSIS\Include\core_cmFunc.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\CMSIS\Include\core_cmInstr.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\CMSIS\Include\arm_common_tables.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\CMSIS\Include\arm_const_structs.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\CMSIS\Include\arm_math.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\devices\fsl_device_registers.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\devices\MKL46Z4\include\fsl_bitaccess.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\devices\MKL46Z4\include\MKL46Z4.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\devices\MKL46Z4\include\MKL46Z4_extension.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\devices\MKL46Z4\include\MKL46Z4_features.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\inc\fsl_uart_hal.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\inc\fsl_lpsci_hal.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\utilities\src\print_scan.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\utilities\inc\fsl_debug_console.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\utilities\inc\fsl_misc_utilities.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\osa\inc\fsl_os_abstraction.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\osa\inc\fsl_os_abstraction_bm.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\system\inc\fsl_interrupt_manager.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\system\src\clock\MKL46Z4\fsl_clock_MKL46Z4.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\system\inc\fsl_clock_manager.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\inc\fsl_rtc_hal.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\inc\fsl_osc_hal.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\inc\fsl_sim_hal.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\src\sim\MKL46Z4\fsl_sim_hal_MKL46Z4.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal.h</PathName>
-      <PathName>C:\Freescale\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal_modes.h</PathName>
     </GeneratedHs>
     <GeneratedASMs>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KL46Z_bare-metal_KSDK1.3-PEx\SDK\platform\devices\MKL46Z4\startup\gcc\startup_MKL46Z4.S</PathName>
