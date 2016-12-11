@@ -59,6 +59,15 @@ int main(void)
   GPIO_DRV_WritePinOutput(LED1_GREEN, 0);
   GPIO_DRV_WritePinOutput(LED2_RED, 0);
 
+  WAIT1_Waitms(1000);
+  for(;;)
+  {
+	  GPIO_DRV_WritePinOutput(LED1_GREEN, 0);
+	  WAIT1_Waitms(500);
+	  GPIO_DRV_WritePinOutput(LED1_GREEN, 1);
+	  WAIT1_Waitms(500);
+  }
+
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
   /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/
   #ifdef PEX_RTOS_START
