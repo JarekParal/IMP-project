@@ -133,7 +133,7 @@
       <File Name="Generated_Code/clockMan1.c" FileDate="2016-12-11, 11:25:42" FileAge="1481451942301" FileType="45637" CompNumb="2" />
       <File Name="Generated_Code/gpio1.h" FileDate="2016-12-11, 12:01:04" FileAge="1481454064888" FileType="45637" CompNumb="14" />
       <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2016-12-11, 12:01:05" FileAge="1481454065051" FileType="45637" CompNumb="1" />
-      <File Name="Generated_Code/gpio1.c" FileDate="2016-12-11, 12:01:04" FileAge="1481454064885" FileType="45637" CompNumb="14" />
+      <File Name="Generated_Code/gpio1.c" FileDate="2016-12-11, 12:58:08" FileAge="1481457488462" FileType="45637" CompNumb="14" />
       <File Name="SDK/platform/utilities/src/fsl_debug_console.c" FileDate="2016-12-11, 11:25:41" FileAge="1481451941952" FileType="1048576" />
       <File Name="SDK/platform/hal/src/port/fsl_port_hal.c" FileDate="2016-12-11, 11:25:41" FileAge="1481451941520" FileType="1048576" />
       <File Name="SDK/platform/CMSIS/Include/core_cmSimd.h" FileDate="2016-12-11, 11:25:41" FileAge="1481451941658" FileType="1048576" />
@@ -185,7 +185,7 @@
       <File Name="SDK/platform/hal/src/uart/fsl_uart_hal.c" FileDate="2016-12-11, 11:25:41" FileAge="1481451941849" FileType="1048576" />
       <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2016-12-11, 11:25:42" FileAge="1481451942087" FileType="45637" CompNumb="1" />
       <File Name="SDK/platform/devices/MKL46Z4/include/MKL46Z4_features.h" FileDate="2016-12-11, 11:25:41" FileAge="1481451941820" FileType="1048576" />
-      <File Name="Sources/main.c" FileDate="2016-12-11, 12:01:04" FileAge="1481454064992" FileType="128" />
+      <File Name="Sources/main.c" FileDate="2016-12-11, 12:57:57" FileAge="1481457477912" FileType="128" />
       <File Name="SDK/platform/utilities/inc/fsl_misc_utilities.h" FileDate="2016-12-11, 11:25:41" FileAge="1481451941989" FileType="1048576" />
       <File Name="Generated_Code/board.h" FileDate="2016-12-11, 11:25:42" FileAge="1481451942196" FileType="45637" CompNumb="7" />
       <File Name="Generated_Code/SDK/platform/devices/MKL46Z4/startup/system_MKL46Z4.h" FileDate="2016-12-11, 11:25:42" FileAge="1481451942283" FileType="45637" CompNumb="2" />
@@ -208,5 +208,5 @@
       <File Name="Generated_Code/osa1.c" FileDate="2016-12-11, 11:25:42" FileAge="1481451942151" FileType="45637" CompNumb="12" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>2</CodeGenReference>
+  <CodeGenReference>4</CodeGenReference>
 </CodeGenerationInfo>

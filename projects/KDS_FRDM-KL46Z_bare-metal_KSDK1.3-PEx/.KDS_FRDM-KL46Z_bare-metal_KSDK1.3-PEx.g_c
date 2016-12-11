@@ -566,7 +566,7 @@
     </GenFiles>
     <SignalListFile />
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>3</ProjectModificationStamp>
+    <ProjectModificationStamp>5</ProjectModificationStamp>
   </Options>
   <CpuID_1>
     <Generated>true</Generated>
@@ -1464,7 +1464,7 @@
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
     <HeaderAge>1233870882</HeaderAge>
-    <CodeAge>1233870882</CodeAge>
+    <CodeAge>1233872708</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>12</GenNumMethods>
     <GPIO_DRV_Init>true</GPIO_DRV_Init>

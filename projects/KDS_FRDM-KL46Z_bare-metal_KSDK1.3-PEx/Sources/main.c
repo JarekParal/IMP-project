@@ -52,6 +52,11 @@ int main(void)
   /* Write your code here */
   /* For example: for(;;) { } */
 
+  // LEDs are connected to VCC (3V3) - turn ON - pin set to 0 (=LOW)
+  // src (page 3:2A): http://cache.freescale.com/files/microcontrollers/hardware_tools/schematics/FRDM-KL46Z_SCH.pdf
+  GPIO_DRV_WritePinOutput(LED1_GREEN, 0);
+  GPIO_DRV_WritePinOutput(LED2_RED, 0);
+
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
   /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/
   #ifdef PEX_RTOS_START

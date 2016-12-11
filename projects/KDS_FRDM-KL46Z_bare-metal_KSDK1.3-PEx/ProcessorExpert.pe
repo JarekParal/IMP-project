@@ -3,7 +3,7 @@
   <Header>
     <Name>KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx</Name>
     <SavedBy>noname</SavedBy>
-    <ModificationStamp>3</ModificationStamp>
+    <ModificationStamp>5</ModificationStamp>
     <Date>2016-12-11</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.2.RT7_b1550-0615</PEversion>
@@ -22395,7 +22395,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>1</Value>
+        <Value>0</Value>
         <Base>DEC</Base>
       </ItemState>
       <ItemState>
@@ -22488,7 +22488,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>1</Value>
+        <Value>0</Value>
         <Base>DEC</Base>
       </ItemState>
       <ItemState>
