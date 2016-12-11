@@ -29,7 +29,7 @@
       <GenExtraFileSrcDir9>Repositories\lib\doxygen\</GenExtraFileSrcDir9>
       <XtraAge0>1233869621</XtraAge0>
       <XtraAge1>1233869621</XtraAge1>
-      <XtraAge2>1233870882</XtraAge2>
+      <XtraAge2>1233873830</XtraAge2>
       <XtraAge3>1233873029</XtraAge3>
       <XtraAge4>1233869621</XtraAge4>
       <GenExtraFileType9>5</GenExtraFileType9>
@@ -573,7 +573,7 @@
     </GenFiles>
     <SignalListFile />
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>6</ProjectModificationStamp>
+    <ProjectModificationStamp>7</ProjectModificationStamp>
   </Options>
   <CpuID_1>
     <Generated>true</Generated>
@@ -1066,8 +1066,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>1.4</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1233870882</HeaderAge>
-    <CodeAge>1233870882</CodeAge>
+    <HeaderAge>1233873830</HeaderAge>
+    <CodeAge>1233873830</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>45</GenNumMethods>
     <hardware_init>true</hardware_init>
@@ -1087,8 +1087,8 @@
     <deinit_i2s_pins>false</deinit_i2s_pins>
     <init_lcd_pins>false</init_lcd_pins>
     <deinit_lcd_pins>false</deinit_lcd_pins>
-    <init_llwu_pins>false</init_llwu_pins>
-    <deinit_llwu_pins>false</deinit_llwu_pins>
+    <init_llwu_pins>true</init_llwu_pins>
+    <deinit_llwu_pins>true</deinit_llwu_pins>
     <init_lptmr_pins>false</init_lptmr_pins>
     <deinit_lptmr_pins>false</deinit_lptmr_pins>
     <init_osc_pins>true</init_osc_pins>
@@ -1124,15 +1124,15 @@
       <MethodPos0>Init</MethodPos0>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>1416</LineBeg>
-      <LineEnd>1712</LineEnd>
+      <LineBeg>1418</LineBeg>
+      <LineEnd>1714</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos1>Init</MethodPos1>
       <MethodType>method</MethodType>
       <ModuleType>Code</ModuleType>
       <LineBeg>1409</LineBeg>
-      <LineEnd>1523</LineEnd>
+      <LineEnd>1556</LineEnd>
     </MethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
     <ExtraFile0>Generated_Code\board.h</ExtraFile0>
@@ -1470,8 +1470,8 @@
     <GenComponentVersion>1.3.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1233870882</HeaderAge>
-    <CodeAge>1233872708</CodeAge>
+    <HeaderAge>1233873830</HeaderAge>
+    <CodeAge>1233873830</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>12</GenNumMethods>
     <GPIO_DRV_Init>true</GPIO_DRV_Init>

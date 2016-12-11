@@ -371,9 +371,10 @@
 			<tr bgcolor='#F8FF9A'><td>ADC0</td><td>adc_se11</td><td>alt0</td><td>Input</td></tr>
 			<tr bgcolor='#CEA8FF'><td>TSI0</td><td>tsi_ch15</td><td>alt0</td><td>Input</td></tr>
 			<tr>
-				<td>73</td><td>LCD_P23/PTC3/LLWU_P7/UART1_RX/TPM0_CH2/CLKOUT/I2S0_TX_BCLK/LCD_P23_Fault</td><td>BUTTON_SW1</td>
-				<td bgcolor='#E5C3FF'>LCD</td><td bgcolor='#E5C3FF'>lcd23</td><td bgcolor='#E5C3FF'>alt0</td><td bgcolor='#E5C3FF'>Output</td>
+				<td rowspan='2'>73</td><td rowspan='2'>LCD_P23/PTC3/LLWU_P7/UART1_RX/TPM0_CH2/CLKOUT/I2S0_TX_BCLK/LCD_P23_Fault</td><td rowspan='2'>BUTTON_SW1</td>
+				<td bgcolor='#F7DCFF'>GPIOC</td><td bgcolor='#F7DCFF'>port3</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Input</td>
 			</tr>
+			<tr bgcolor='#DDC7B5'><td>LLWU</td><td>llwu_wakeup7</td><td>alt1</td><td>Input</td></tr>
 			<tr>
 				<td>74</td><td>VSS74</td><td><small><i>same</i></small></td>
 				<td bgcolor='#C7A886'>PMC</td><td bgcolor='#C7A886'>vss74</td><td bgcolor='#C7A886'>alt0</td><td bgcolor='#C7A886'>Input</td>
@@ -1992,9 +1993,10 @@
 			<tr bgcolor='#F8FF9A'><td>ADC0</td><td>adc_se11</td><td>alt0</td><td>Input</td></tr>
 			<tr bgcolor='#CEA8FF'><td>TSI0</td><td>tsi_ch15</td><td>alt0</td><td>Input</td></tr>
 			<tr>
-				<td>73</td><td>LCD_P23/PTC3/LLWU_P7/UART1_RX/TPM0_CH2/CLKOUT/I2S0_TX_BCLK/LCD_P23_Fault</td><td>BUTTON_SW1</td>
-				<td bgcolor='#E5C3FF'>LCD</td><td bgcolor='#E5C3FF'>lcd23</td><td bgcolor='#E5C3FF'>alt0</td><td bgcolor='#E5C3FF'>Output</td>
+				<td rowspan='2'>73</td><td rowspan='2'>LCD_P23/PTC3/LLWU_P7/UART1_RX/TPM0_CH2/CLKOUT/I2S0_TX_BCLK/LCD_P23_Fault</td><td rowspan='2'>BUTTON_SW1</td>
+				<td bgcolor='#F7DCFF'>GPIOC</td><td bgcolor='#F7DCFF'>port3</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Input</td>
 			</tr>
+			<tr bgcolor='#DDC7B5'><td>LLWU</td><td>llwu_wakeup7</td><td>alt1</td><td>Input</td></tr>
 			<tr>
 				<td>74</td><td>VSS74</td><td><small><i>same</i></small></td>
 				<td bgcolor='#C7A886'>PMC</td><td bgcolor='#C7A886'>vss74</td><td bgcolor='#C7A886'>alt0</td><td bgcolor='#C7A886'>Input</td>
