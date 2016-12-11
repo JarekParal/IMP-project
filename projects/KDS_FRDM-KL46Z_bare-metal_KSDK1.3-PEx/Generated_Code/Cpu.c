@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.3.0
 **     Datasheet   : KL46P121M48SF4RM, Rev.2, Dec 2012
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-11, 12:00, # CodeGen: 1
+**     Date/Time   : 2016-12-11, 13:04, # CodeGen: 4
 **     Abstract    :
 **
 **     Settings    :
@@ -111,6 +111,8 @@ void Components_Init(void)
   GPIO_DRV_Init(gpio1_InpConfig0,gpio1_OutConfig0);
   /*! gpio1 Auto initialization end */
   
+  /* ### KinetisSDK "KSDK1" init code ... */
+  /* Write code here ... */
 }
 #endif /* CPU_COMPONENTS_INIT */
 

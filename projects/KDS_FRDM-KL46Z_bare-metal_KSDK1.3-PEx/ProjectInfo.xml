@@ -80,6 +80,8 @@
   <FILES>
     <GeneratedCs>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\Cpu.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\KSDK1.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\WAIT1.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\clockMan1.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\gpio1.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\hardware_init.c</PathName>
@@ -113,8 +115,11 @@
     </GeneratedCs>
     <GeneratedHs>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\Cpu.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\KSDK1.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\PE_KSDK_Types.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\PE_low_level_init.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\SDK\platform\devices\MKL46Z4\startup\system_MKL46Z4.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\WAIT1.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\board.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\clockMan1.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_bare-metal_KSDK1.3-PEx\Generated_Code\gpio1.h</PathName>

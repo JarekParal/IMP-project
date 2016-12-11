@@ -230,6 +230,19 @@ Module "gpio1"     (component fsl_gpio)
    - gpio1_GPIO_DRV_IsPinIntPending -Reads the individual pin-interrupt status flag.
    - gpio1_GPIO_DRV_ClearPinIntFlag -Clears the individual GPIO pin interrupt status flag.
 
+Module "WAIT1"     (component Wait)
+   - WAIT1_Wait10Cycles -Wait for 10 CPU cycles.
+   - WAIT1_Wait100Cycles -Wait for 100 CPU cycles.
+   - WAIT1_WaitCycles -Wait for a specified number of CPU cycles (16bit data type).
+   - WAIT1_WaitLongCycles -Wait for a specified number of CPU cycles (32bit data type).
+   - WAIT1_Waitms -Wait for a specified time in milliseconds.
+   - WAIT1_Waitus -Wait for a specified time in microseconds.
+   - WAIT1_Waitns -Wait for a specified time in nano seconds.
+   - WAIT1_WaitOSms -If an RTOS is enabled, this routine will use a non-blocking wait method. Otherwise it will do a 
+                busy/blocking wait.
+
+Module "KSDK1"     (component KinetisSDK)
+
 Module "Cpu"       (component MKL46Z256LL4_4SDK)
    - Cpu_SystemInit -This method configures the oscillator (PLL) that is part of the microcontroller device. SystemInit is 
                 called from startup_device file.
