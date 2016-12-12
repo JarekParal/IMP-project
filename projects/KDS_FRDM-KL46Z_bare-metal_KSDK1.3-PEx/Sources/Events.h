@@ -37,7 +37,6 @@
 #include "gpio1.h"
 #include "WAIT1.h"
 #include "KSDK1.h"
-#include "tpmTmr1.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -55,30 +54,6 @@ extern "C" {
 ** ===================================================================
 */
 void PORTC_PORTD_IRQHandler(void);
-
-#ifdef tpmTmr1_IDX
-/*
-** ===================================================================
-**     Interrupt handler : TPM0_IRQHandler
-**
-**     Description :
-**         User interrupt service routine. 
-**     Parameters  : None
-**     Returns     : Nothing
-** ===================================================================
-*/
-void TPM0_IRQHandler(void);
-#else
-  /* This IRQ handler is not used by tpmTmr1 component. The purpose may be
-   * that the component has been removed or disabled. It is recommended to 
-   * remove this handler because Processor Expert cannot modify it according to 
-   * possible new request (e.g. in case that another component uses this
-   * interrupt vector). */
-  #warning This IRQ handler is not used by tpmTmr1 component.\
-           It is recommended to remove this because Processor Expert cannot\
-           modify it according to possible new request.
-#endif
-
 /* END Events */
 
 #ifdef __cplusplus

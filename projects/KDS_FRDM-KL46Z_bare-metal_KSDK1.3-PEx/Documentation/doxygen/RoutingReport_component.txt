@@ -490,7 +490,7 @@
 			</tr>
 			<tr>
 				<td>98</td><td>LCD_P45/ADC0_SE6b/PTD5/SPI1_SCK/UART2_TX/TPM0_CH5/LCD_P45_Fault</td><td>LED1_GREEN/J2_12/J3_2</td>
-				<td bgcolor='#86DAFF'>TPM0</td><td bgcolor='#86DAFF'>tmr_ch5</td><td bgcolor='#86DAFF'>alt4</td><td bgcolor='#86DAFF'>Not Specified</td>
+				<td bgcolor='#F7DCFF'>GPIOD</td><td bgcolor='#F7DCFF'>port5</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Output</td>
 			</tr>
 			<tr>
 				<td rowspan='2'>99</td><td rowspan='2'>LCD_P46/ADC0_SE7b/PTD6/LLWU_P15/SPI1_MOSI/UART0_RX/SPI1_MISO/LCD_P46_Fault</td><td rowspan='2'>J2_8</td>
@@ -2112,7 +2112,7 @@
 			</tr>
 			<tr>
 				<td>98</td><td>LCD_P45/ADC0_SE6b/PTD5/SPI1_SCK/UART2_TX/TPM0_CH5/LCD_P45_Fault</td><td>LED1_GREEN/J2_12/J3_2</td>
-				<td bgcolor='#86DAFF'>TPM0</td><td bgcolor='#86DAFF'>tmr_ch5</td><td bgcolor='#86DAFF'>alt4</td><td bgcolor='#86DAFF'>Not Specified</td>
+				<td bgcolor='#F7DCFF'>GPIOD</td><td bgcolor='#F7DCFF'>port5</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Output</td>
 			</tr>
 			<tr>
 				<td rowspan='2'>99</td><td rowspan='2'>LCD_P46/ADC0_SE7b/PTD6/LLWU_P15/SPI1_MOSI/UART0_RX/SPI1_MISO/LCD_P46_Fault</td><td rowspan='2'>J2_8</td>

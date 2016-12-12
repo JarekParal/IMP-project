@@ -36,7 +36,6 @@
 #include "gpio1.h"
 #include "WAIT1.h"
 #include "KSDK1.h"
-#include "tpmTmr1.h"
 #if CPU_INIT_CONFIG
   #include "Init_Config.h"
 #endif
@@ -57,7 +56,7 @@ int main(void)
 
   // LEDs are connected to VCC (3V3) - turn ON - pin set to 0 (=LOW)
   // src (page 3:2A): http://cache.freescale.com/files/microcontrollers/hardware_tools/schematics/FRDM-KL46Z_SCH.pdf
-  //GPIO_DRV_WritePinOutput(LED1_GREEN, 0);
+  GPIO_DRV_WritePinOutput(LED1_GREEN, 0);
   GPIO_DRV_WritePinOutput(LED2_RED, 0);
 
   //BUTTON_SW1 - activate Pull Up (button is connect to GND), include capacitor (no problem with oscillation)
@@ -65,12 +64,10 @@ int main(void)
   WAIT1_Waitms(1000);
   for(;;)
   {
-//	  GPIO_DRV_WritePinOutput(LED1_GREEN, 0);
-//	  WAIT1_Waitms(100);
-//	  GPIO_DRV_WritePinOutput(LED1_GREEN, 1);
-//	  WAIT1_Waitms(100);
-
-
+	  GPIO_DRV_WritePinOutput(LED1_GREEN, 0);
+	  WAIT1_Waitms(100);
+	  GPIO_DRV_WritePinOutput(LED1_GREEN, 1);
+	  WAIT1_Waitms(100);
   }
 
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/

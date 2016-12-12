@@ -27,11 +27,11 @@
         <Line>Documentation\doxygen\pex.css</Line>
       </GenExtraFiles>
       <GenExtraFileSrcDir9>Repositories\lib\doxygen\</GenExtraFileSrcDir9>
-      <XtraAge0>1233869621</XtraAge0>
-      <XtraAge1>1233869621</XtraAge1>
-      <XtraAge2>1233931201</XtraAge2>
-      <XtraAge3>1233873029</XtraAge3>
-      <XtraAge4>1233869621</XtraAge4>
+      <XtraAge0>1233933746</XtraAge0>
+      <XtraAge1>1233933746</XtraAge1>
+      <XtraAge2>1233933930</XtraAge2>
+      <XtraAge3>1233933746</XtraAge3>
+      <XtraAge4>1233933746</XtraAge4>
       <GenExtraFileType9>5</GenExtraFileType9>
       <GenExtraFileType8>4</GenExtraFileType8>
       <GenExtraFileType7>4</GenExtraFileType7>
@@ -305,51 +305,6 @@
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.3.0\platform\hal\src\tpm\fsl_tpm_hal.c</SrcFileName>
-        <OrigSrcFileHash>32BA9822CFF55FE7098FC46139EF883937AE11D206FFA67CD9CC736305DC9FDBEF05220D568B29607C292E38CAD5E1EC18D50D12AA3D1CB3ABE6D627B8AB28DF</OrigSrcFileHash>
-        <ReviewedSrcFileHash>32BA9822CFF55FE7098FC46139EF883937AE11D206FFA67CD9CC736305DC9FDBEF05220D568B29607C292E38CAD5E1EC18D50D12AA3D1CB3ABE6D627B8AB28DF</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\tpm\fsl_tpm_hal.c</PrjFileName>
-        <PrjFileHash>32BA9822CFF55FE7098FC46139EF883937AE11D206FFA67CD9CC736305DC9FDBEF05220D568B29607C292E38CAD5E1EC18D50D12AA3D1CB3ABE6D627B8AB28DF</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.3.0\platform\hal\inc\fsl_tpm_hal.h</SrcFileName>
-        <OrigSrcFileHash>DCD679043F712F635F91D4766E6200C6E4F3216A163B6543BAC7938FF884A440D30909E68579A4C68B267C23231A3C676C3BBC69F30A60763477FDCB2AEA639F</OrigSrcFileHash>
-        <ReviewedSrcFileHash>DCD679043F712F635F91D4766E6200C6E4F3216A163B6543BAC7938FF884A440D30909E68579A4C68B267C23231A3C676C3BBC69F30A60763477FDCB2AEA639F</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\inc\fsl_tpm_hal.h</PrjFileName>
-        <PrjFileHash>DCD679043F712F635F91D4766E6200C6E4F3216A163B6543BAC7938FF884A440D30909E68579A4C68B267C23231A3C676C3BBC69F30A60763477FDCB2AEA639F</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.3.0\platform\drivers\src\tpm\fsl_tpm_common.c</SrcFileName>
-        <OrigSrcFileHash>5319CDC1C6911C1F6D86D13CEB321A513C0BFF447B44DC5B536F461D194EE2EC6C90EE1FBB08452889132F8986486615E1A3C5A55E148B7E09A5481756EE7D86</OrigSrcFileHash>
-        <ReviewedSrcFileHash>5319CDC1C6911C1F6D86D13CEB321A513C0BFF447B44DC5B536F461D194EE2EC6C90EE1FBB08452889132F8986486615E1A3C5A55E148B7E09A5481756EE7D86</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\tpm\fsl_tpm_common.c</PrjFileName>
-        <PrjFileHash>5319CDC1C6911C1F6D86D13CEB321A513C0BFF447B44DC5B536F461D194EE2EC6C90EE1FBB08452889132F8986486615E1A3C5A55E148B7E09A5481756EE7D86</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.3.0\platform\drivers\src\tpm\fsl_tpm_driver.c</SrcFileName>
-        <OrigSrcFileHash>C4F88014530FAD949FF3ABF69CA8DB52FB6AF34DE6CFA2D301B13AD1206172973227D957023E80BE2CAD74DD1C33CE894C50046C984B2EBC5015325C68DBFD4D</OrigSrcFileHash>
-        <ReviewedSrcFileHash>C4F88014530FAD949FF3ABF69CA8DB52FB6AF34DE6CFA2D301B13AD1206172973227D957023E80BE2CAD74DD1C33CE894C50046C984B2EBC5015325C68DBFD4D</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\tpm\fsl_tpm_driver.c</PrjFileName>
-        <PrjFileHash>C4F88014530FAD949FF3ABF69CA8DB52FB6AF34DE6CFA2D301B13AD1206172973227D957023E80BE2CAD74DD1C33CE894C50046C984B2EBC5015325C68DBFD4D</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.3.0\platform\drivers\inc\fsl_tpm_driver.h</SrcFileName>
-        <OrigSrcFileHash>22ACD6B29E9DCF279D8515E1D08C145EE87831D1DA352060FC8EA3C69BDACB49BE90CB02647EC12DF5A4D5781E65040C7F52C92F632835F5CBD77C64353B643F</OrigSrcFileHash>
-        <ReviewedSrcFileHash>22ACD6B29E9DCF279D8515E1D08C145EE87831D1DA352060FC8EA3C69BDACB49BE90CB02647EC12DF5A4D5781E65040C7F52C92F632835F5CBD77C64353B643F</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\inc\fsl_tpm_driver.h</PrjFileName>
-        <PrjFileHash>22ACD6B29E9DCF279D8515E1D08C145EE87831D1DA352060FC8EA3C69BDACB49BE90CB02647EC12DF5A4D5781E65040C7F52C92F632835F5CBD77C64353B643F</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
         <SrcFileName>C:\Freescale\KSDK_1.3.0\platform\CMSIS\Include\core_cm0plus.h</SrcFileName>
         <OrigSrcFileHash>E7187F20FCC8E9E5DE71D63661F039C48759043687EB68DE27E7447172155D003B015F995BA5458055C30EDFA36ED7A0DBE48DEDD6ED59C5851C83D186181846</OrigSrcFileHash>
         <ReviewedSrcFileHash>E7187F20FCC8E9E5DE71D63661F039C48759043687EB68DE27E7447172155D003B015F995BA5458055C30EDFA36ED7A0DBE48DEDD6ED59C5851C83D186181846</ReviewedSrcFileHash>
@@ -595,11 +550,10 @@
       <GenEventModules lines_count="1">
         <Line>Events</Line>
       </GenEventModules>
-      <GenMethodsInEvents lines_count="2">
-        <Line>TPM0_IRQHandler</Line>
+      <GenMethodsInEvents lines_count="1">
         <Line>PORTC_PORTD_IRQHandler</Line>
       </GenMethodsInEvents>
-      <GenAllModules lines_count="9">
+      <GenAllModules lines_count="8">
         <Line>clockMan1</Line>
         <Line>Cpu</Line>
         <Line>Events</Line>
@@ -607,23 +561,21 @@
         <Line>KSDK1</Line>
         <Line>osa1</Line>
         <Line>pin_init</Line>
-        <Line>tpmTmr1</Line>
         <Line>WAIT1</Line>
       </GenAllModules>
       <GenExternModules lines_count="0" />
-      <GenBeanModules lines_count="7">
+      <GenBeanModules lines_count="6">
         <Line>clockMan1</Line>
         <Line>pin_init</Line>
         <Line>osa1</Line>
         <Line>gpio1</Line>
         <Line>WAIT1</Line>
         <Line>KSDK1</Line>
-        <Line>tpmTmr1</Line>
       </GenBeanModules>
     </GenFiles>
     <SignalListFile />
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>15</ProjectModificationStamp>
+    <ProjectModificationStamp>17</ProjectModificationStamp>
   </Options>
   <CpuID_1>
     <Generated>true</Generated>
@@ -631,8 +583,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1233931201</HeaderAge>
-    <CodeAge>1233931201</CodeAge>
+    <HeaderAge>1233933811</HeaderAge>
+    <CodeAge>1233933811</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>2</GenNumMethods>
     <SystemInit>true</SystemInit>
@@ -691,8 +643,8 @@
     <GenComponentVersion>1.3.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1233869621</HeaderAge>
-    <CodeAge>1233869621</CodeAge>
+    <HeaderAge>1233933747</HeaderAge>
+    <CodeAge>1233933746</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>129</GenNumMethods>
     <CLOCK_SYS_SetOutDiv1>true</CLOCK_SYS_SetOutDiv1>
@@ -1116,8 +1068,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>1.4</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1233931201</HeaderAge>
-    <CodeAge>1233931201</CodeAge>
+    <HeaderAge>1233933811</HeaderAge>
+    <CodeAge>1233933930</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>45</GenNumMethods>
     <hardware_init>true</hardware_init>
@@ -1155,8 +1107,8 @@
     <deinit_sim_pins>false</deinit_sim_pins>
     <init_spi_pins>false</init_spi_pins>
     <deinit_spi_pins>false</deinit_spi_pins>
-    <init_tpm_pins>true</init_tpm_pins>
-    <deinit_tpm_pins>true</deinit_tpm_pins>
+    <init_tpm_pins>false</init_tpm_pins>
+    <deinit_tpm_pins>false</deinit_tpm_pins>
     <init_tsi_pins>false</init_tsi_pins>
     <deinit_tsi_pins>false</deinit_tsi_pins>
     <init_uart_pins>false</init_uart_pins>
@@ -1174,15 +1126,15 @@
       <MethodPos0>Init</MethodPos0>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>1420</LineBeg>
-      <LineEnd>1716</LineEnd>
+      <LineBeg>1418</LineBeg>
+      <LineEnd>1714</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos1>Init</MethodPos1>
       <MethodType>method</MethodType>
       <ModuleType>Code</ModuleType>
       <LineBeg>1409</LineBeg>
-      <LineEnd>1581</LineEnd>
+      <LineEnd>1556</LineEnd>
     </MethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
     <ExtraFile0>Generated_Code\board.h</ExtraFile0>
@@ -1408,8 +1360,8 @@
     <GenComponentVersion>1.3.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1233869621</HeaderAge>
-    <CodeAge>1233869621</CodeAge>
+    <HeaderAge>1233933747</HeaderAge>
+    <CodeAge>1233933747</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>36</GenNumMethods>
     <OSA_PollAllOtherTasks>true</OSA_PollAllOtherTasks>
@@ -1520,8 +1472,8 @@
     <GenComponentVersion>1.3.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1233931201</HeaderAge>
-    <CodeAge>1233931201</CodeAge>
+    <HeaderAge>1233933930</HeaderAge>
+    <CodeAge>1233933930</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>12</GenNumMethods>
     <GPIO_DRV_Init>true</GPIO_DRV_Init>
@@ -1675,8 +1627,8 @@
     <GenComponentVersion>01.069</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1233873029</HeaderAge>
-    <CodeAge>1233873029</CodeAge>
+    <HeaderAge>1233933746</HeaderAge>
+    <CodeAge>1233933746</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>8</GenNumMethods>
     <Wait10Cycles>true</Wait10Cycles>
@@ -1812,8 +1764,8 @@
     <GenComponentVersion>01.005</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1233873029</HeaderAge>
-    <CodeAge>1233873029</CodeAge>
+    <HeaderAge>1233933746</HeaderAge>
+    <CodeAge>1233933746</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>0</GenNumMethods>
     <GenNumEvents>0</GenNumEvents>
@@ -1824,196 +1776,97 @@
     <GenExtraFilesCount>1</GenExtraFilesCount>
     <ExtraFile0>Generated_Code\PE_KSDK_Types.h</ExtraFile0>
   </ComponentID_18>
-  <ComponentID_26>
-    <Generated>true</Generated>
-    <GenCompName>tpmTmr1</GenCompName>
-    <GenComponentVersion>1.3.0</GenComponentVersion>
-    <GenDriverVersion>01.00</GenDriverVersion>
-    <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1233931201</HeaderAge>
-    <CodeAge>1233932617</CodeAge>
-    <AsemblAge>-1</AsemblAge>
-    <GenNumMethods>15</GenNumMethods>
-    <TPM_DRV_Init>true</TPM_DRV_Init>
-    <TPM_DRV_PwmStop>true</TPM_DRV_PwmStop>
-    <TPM_DRV_PwmStart>true</TPM_DRV_PwmStart>
-    <TPM_DRV_SetTimeOverflowIntCmd>true</TPM_DRV_SetTimeOverflowIntCmd>
-    <TPM_DRV_SetChnIntCmd>true</TPM_DRV_SetChnIntCmd>
-    <TPM_DRV_SetClock>true</TPM_DRV_SetClock>
-    <TPM_DRV_GetClock>true</TPM_DRV_GetClock>
-    <TPM_DRV_CounterStart>true</TPM_DRV_CounterStart>
-    <TPM_DRV_CounterStop>true</TPM_DRV_CounterStop>
-    <TPM_DRV_CounterRead>true</TPM_DRV_CounterRead>
-    <TPM_DRV_InputCaptureEnable>true</TPM_DRV_InputCaptureEnable>
-    <TPM_DRV_GetChnVal>true</TPM_DRV_GetChnVal>
-    <TPM_DRV_OutputCompareEnable>true</TPM_DRV_OutputCompareEnable>
-    <TPM_DRV_Deinit>true</TPM_DRV_Deinit>
-    <TPM_DRV_IRQHandler>true</TPM_DRV_IRQHandler>
-    <GenNumEvents>1</GenNumEvents>
-    <IrqHandler_Selected>3</IrqHandler_Selected>
-    <IrqHandler_Name>TPM0_IRQHandler</IrqHandler_Name>
-    <IrqHandler_Priority>interrupts disabled</IrqHandler_Priority>
-    <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
-    <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
-    <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
-    <GenMethodPos>0</GenMethodPos>
-    <GenExtraFilesCount>3</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\drivers\inc\fsl_tpm_driver.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\drivers\src\tpm\fsl_tpm_driver.c</ExtraFile1>
-    <ExtraFile2>SDK\platform\drivers\src\tpm\fsl_tpm_common.c</ExtraFile2>
-    <InhrCompID_27>
-      <Generated>true</Generated>
-      <GenCompName>fsl_tpm_hal1</GenCompName>
-      <GenComponentVersion>1.3.0</GenComponentVersion>
-      <GenDriverVersion>01.00</GenDriverVersion>
-      <GenEventModule />
-      <HeaderAge>-1</HeaderAge>
-      <CodeAge>-1</CodeAge>
-      <AsemblAge>-1</AsemblAge>
-      <GenNumMethods>37</GenNumMethods>
-      <TPM_HAL_Reset>true</TPM_HAL_Reset>
-      <TPM_HAL_EnablePwmMode>true</TPM_HAL_EnablePwmMode>
-      <TPM_HAL_DisableChn>true</TPM_HAL_DisableChn>
-      <TPM_HAL_SetClockMode>true</TPM_HAL_SetClockMode>
-      <TPM_HAL_GetClockMode>true</TPM_HAL_GetClockMode>
-      <TPM_HAL_SetClockDiv>true</TPM_HAL_SetClockDiv>
-      <TPM_HAL_GetClockDiv>true</TPM_HAL_GetClockDiv>
-      <TPM_HAL_EnableTimerOverflowInt>true</TPM_HAL_EnableTimerOverflowInt>
-      <TPM_HAL_DisableTimerOverflowInt>true</TPM_HAL_DisableTimerOverflowInt>
-      <TPM_HAL_IsOverflowIntEnabled>true</TPM_HAL_IsOverflowIntEnabled>
-      <TPM_HAL_GetTimerOverflowStatus>true</TPM_HAL_GetTimerOverflowStatus>
-      <TPM_HAL_ClearTimerOverflowFlag>true</TPM_HAL_ClearTimerOverflowFlag>
-      <TPM_HAL_SetCpwms>true</TPM_HAL_SetCpwms>
-      <TPM_HAL_GetCpwms>true</TPM_HAL_GetCpwms>
-      <TPM_HAL_ClearCounter>true</TPM_HAL_ClearCounter>
-      <TPM_HAL_GetCounterVal>true</TPM_HAL_GetCounterVal>
-      <TPM_HAL_SetMod>true</TPM_HAL_SetMod>
-      <TPM_HAL_GetMod>true</TPM_HAL_GetMod>
-      <TPM_HAL_SetChnMsnbaElsnbaVal>true</TPM_HAL_SetChnMsnbaElsnbaVal>
-      <TPM_HAL_GetChnMsnbaVal>true</TPM_HAL_GetChnMsnbaVal>
-      <TPM_HAL_GetChnElsnbaVal>true</TPM_HAL_GetChnElsnbaVal>
-      <TPM_HAL_EnableChnInt>true</TPM_HAL_EnableChnInt>
-      <TPM_HAL_DisableChnInt>true</TPM_HAL_DisableChnInt>
-      <TPM_HAL_IsChnIntEnabled>true</TPM_HAL_IsChnIntEnabled>
-      <TPM_HAL_GetChnStatus>true</TPM_HAL_GetChnStatus>
-      <TPM_HAL_ClearChnInt>true</TPM_HAL_ClearChnInt>
-      <TPM_HAL_SetChnCountVal>true</TPM_HAL_SetChnCountVal>
-      <TPM_HAL_GetChnCountVal>true</TPM_HAL_GetChnCountVal>
-      <TPM_HAL_GetStatusRegVal>true</TPM_HAL_GetStatusRegVal>
-      <TPM_HAL_ClearStatusReg>true</TPM_HAL_ClearStatusReg>
-      <TPM_HAL_SetTriggerSrc>true</TPM_HAL_SetTriggerSrc>
-      <TPM_HAL_SetTriggerMode>true</TPM_HAL_SetTriggerMode>
-      <TPM_HAL_SetReloadOnTriggerMode>true</TPM_HAL_SetReloadOnTriggerMode>
-      <TPM_HAL_SetStopOnOverflowMode>true</TPM_HAL_SetStopOnOverflowMode>
-      <TPM_HAL_EnableGlobalTimeBase>true</TPM_HAL_EnableGlobalTimeBase>
-      <TPM_HAL_SetDbgMode>true</TPM_HAL_SetDbgMode>
-      <TPM_HAL_SetWaitMode>true</TPM_HAL_SetWaitMode>
-      <GenNumEvents>0</GenNumEvents>
-      <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
-      <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
-      <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
-      <GenMethodPos>0</GenMethodPos>
-      <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_tpm_hal.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\tpm\fsl_tpm_hal.c</ExtraFile1>
-    </InhrCompID_27>
-  </ComponentID_26>
   <UsedSrcFiles>
     <SrcFile0>Drivers\PEx_Kinetis.src=1194226771</SrcFile0>
-    <SrcFile1>Drivers\fsl_tpm_hal.src=-1</SrcFile1>
-    <SrcFile2>Drivers\Kinetis\PinSettings_MKL46Z256LL4_4SDK.prg=-1</SrcFile2>
-    <SrcFile3>Drivers\Kinetis\fsl_mcg_hal.drv=-1</SrcFile3>
-    <SrcFile4>Drivers\Common\PinSettingsAbstract.inc=-1</SrcFile4>
-    <SrcFile5>Drivers\Kinetis\fsl_osc_hal.drv=-1</SrcFile5>
-    <SrcFile6>Drivers\Kinetis\fsl_os_abstraction_code.drv=-1</SrcFile6>
-    <SrcFile7>Drivers\fsl_port_hal.src=-1</SrcFile7>
-    <SrcFile8>Drivers\Common\DoxyGenCpuDoc.prg=1183486427</SrcFile8>
-    <SrcFile9>Drivers\Kinetis\fsl_tpm.drv=-1</SrcFile9>
-    <SrcFile10>Drivers\Common\Static_SetConst.prg=1183486427</SrcFile10>
-    <SrcFile11>Drivers\Common\KinetisSDKAbstract.Inc=1233805687</SrcFile11>
-    <SrcFile12>Drivers\sw\Wait.drv=1233805701</SrcFile12>
-    <SrcFile13>Drivers\sw\KinetisSDK.drv=1233805689</SrcFile13>
-    <SrcFile14>Drivers\Common\Header.end=1183486427</SrcFile14>
-    <SrcFile15>Drivers\KinetisSDK.src=1233805684</SrcFile15>
-    <SrcFile16>Drivers\Common\WriteBlock_NotRst.prg=1194226775</SrcFile16>
-    <SrcFile17>Drivers\Common\KinetisCommon_Init.inc=1183486427</SrcFile17>
-    <SrcFile18>Drivers\Wait.src=1233805693</SrcFile18>
-    <SrcFile19>Drivers\Common\HeaderFreescale.h=1183486427</SrcFile19>
-    <SrcFile20>Drivers\Common\Header.End=1183486427</SrcFile20>
-    <SrcFile21>Drivers\Common\GeneralParametersNone.inc=1183486427</SrcFile21>
-    <SrcFile22>Drivers\Kinetis\fsl_gpio_hal.drv=-1</SrcFile22>
-    <SrcFile23>Drivers\fsl_os_abstraction.src=-1</SrcFile23>
-    <SrcFile24>Drivers\Common\CopyrightUserC.inc=1183486427</SrcFile24>
-    <SrcFile25>Drivers\Common\Header.doxy=1183484379</SrcFile25>
-    <SrcFile26>Drivers\Common\GenInitConfigSequence.prg=1183486427</SrcFile26>
-    <SrcFile27>Drivers\Common\GeneralInternalGlobal.inc=1183486427</SrcFile27>
-    <SrcFile28>Drivers\Kinetis\fsl_os_abstraction.drv=-1</SrcFile28>
-    <SrcFile29>Drivers\Kinetis\fsl_tpm_code.drv=-1</SrcFile29>
-    <SrcFile30>Drivers\Common\GeneralInternalDescription.prg=1183486427</SrcFile30>
-    <SrcFile31>Drivers\Common\Static_SupportSubroutines.prg=1194226775</SrcFile31>
-    <SrcFile32>Drivers\Common\WaitWaitms.Inc=1233805702</SrcFile32>
-    <SrcFile33>Drivers\Common\GeneralParameters.inc=1183486427</SrcFile33>
-    <SrcFile34>Drivers\Common\ToolChain_Settings.prg=1183486427</SrcFile34>
-    <SrcFile35>Drivers\Common\WaitWaitOSms.Inc=1233805700</SrcFile35>
-    <SrcFile36>Drivers\Common\HeaderFreescale.C=1183486427</SrcFile36>
-    <SrcFile37>Drivers\sw\RTOSAdaptor\Default_RTOSAdaptor.prg=1183482931</SrcFile37>
-    <SrcFile38>Drivers\fsl_tpm.src=-1</SrcFile38>
-    <SrcFile39>Drivers\Kinetis\KinetisSdk_Linker_V1.prg=1194226773</SrcFile39>
-    <SrcFile40>Drivers\fsl_gpio.src=-1</SrcFile40>
-    <SrcFile41>Drivers\Kinetis\fsl_port_hal.drv=-1</SrcFile41>
-    <SrcFile42>Drivers\sw\CommonSupport.prg=1233805702</SrcFile42>
-    <SrcFile43>Drivers\Kinetis\fsl_clock_manager.drv=-1</SrcFile43>
-    <SrcFile44>Drivers\sw\PinSettings.drv=-1</SrcFile44>
-    <SrcFile45>Drivers\Common\WaitWaitus.Inc=1233805699</SrcFile45>
-    <SrcFile46>Drivers\Common\WaitAbstract.Inc=1233805700</SrcFile46>
-    <SrcFile47>Drivers\Kinetis\HAL_Port_Bridge_V2.prg=1194226773</SrcFile47>
-    <SrcFile48>Drivers\Kinetis\fsl_gpio_code.drv=-1</SrcFile48>
-    <SrcFile49>Drivers\Common\InitReg32Block.prg=1183486427</SrcFile49>
-    <SrcFile50>Drivers\fsl_mcg_hal.src=-1</SrcFile50>
-    <SrcFile51>Drivers\fsl_clock_manager.src=-1</SrcFile51>
-    <SrcFile52>Drivers\Kinetis\fsl_gpio.drv=-1</SrcFile52>
-    <SrcFile53>Drivers\Common\CommonInitialization_NotRst.prg=1183486427</SrcFile53>
-    <SrcFile54>Drivers\Common\WaitWaitns.Inc=1233805700</SrcFile54>
-    <SrcFile55>Drivers\Common\WaitWaitCycles.Inc=1233805696</SrcFile55>
-    <SrcFile56>Drivers\Common\GenReg8BitsInitInfo.prg=1183486427</SrcFile56>
-    <SrcFile57>Drivers\Kinetis\fsl_rtc_hal.drv=-1</SrcFile57>
-    <SrcFile58>Drivers\Common\WaitWait10Cycles.Inc=1233805699</SrcFile58>
-    <SrcFile59>Drivers\Kinetis\fsl_clock_manager_code.drv=-1</SrcFile59>
-    <SrcFile60>Drivers\Common\WaitWaitLongCycles.Inc=1233805700</SrcFile60>
-    <SrcFile61>Drivers\Common\KinetisAbstract.inc=1183486427</SrcFile61>
-    <SrcFile62>Drivers\fsl_rtc_hal.src=-1</SrcFile62>
-    <SrcFile63>Drivers\Common\GenReg32BitsInitInfo.prg=1183486427</SrcFile63>
-    <SrcFile64>Drivers\Common\InitRegBlock.prg=1183486427</SrcFile64>
-    <SrcFile65>Drivers\fsl_gpio_hal.src=-1</SrcFile65>
-    <SrcFile66>Drivers\Common\GeneralDamage.inc=1183486427</SrcFile66>
-    <SrcFile67>Drivers\Common\EBGNSupport\StringLib.prg=1183486427</SrcFile67>
-    <SrcFile68>Drivers\KSDK.prg=1233805683</SrcFile68>
-    <SrcFile69>Drivers\Common\Header.c=1183486427</SrcFile69>
-    <SrcFile70>Drivers\fsl_interrupt_manager.src=-1</SrcFile70>
-    <SrcFile71>Drivers\Common\Header.h=1183486427</SrcFile71>
-    <SrcFile72>Drivers\Kinetis\fsl_tpm_hal.drv=-1</SrcFile72>
-    <SrcFile73>Drivers\Common\WaitWait100Cycles.Inc=1233805696</SrcFile73>
-    <SrcFile74>Drivers\Kinetis\Static_Kinetis_MCG.prg=1194226774</SrcFile74>
-    <SrcFile75>Drivers\KSDK\PE_KSDK_Types.h=1233805689</SrcFile75>
-    <SrcFile76>Drivers\Common\Doxy_CollectRegInitInfo.prg=1183486427</SrcFile76>
-    <SrcFile77>Drivers\sw\RTOSAdaptor\Common_RTOSAdaptor.prg=1183482931</SrcFile77>
-    <SrcFile78>Drivers\fsl_osc_hal.src=-1</SrcFile78>
-    <SrcFile79>Drivers\Kinetis\system_KinetisK_h.prg=1194226773</SrcFile79>
-    <SrcFile80>Drivers\Kinetis\HAL_Port_Bridge.prg=1194226774</SrcFile80>
-    <SrcFile81>Drivers\Common\Header.C=1183486427</SrcFile81>
-    <SrcFile82>Drivers\Kinetis\fsl_interrupt_manager.drv=-1</SrcFile82>
-    <SrcFile83>Drivers\Common\KinetisComponents_Init.inc=1183486427</SrcFile83>
-    <SrcFile84>Drivers\Common\GeneralISR.inc=1183486427</SrcFile84>
-    <SrcFile85>Drivers\fsl_sim_hal.src=-1</SrcFile85>
-    <SrcFile86>Drivers\Kinetis\fsl_sim_hal.drv=-1</SrcFile86>
-    <SrcFile87>Drivers\Common\GeneralMethod.inc=1183486427</SrcFile87>
-    <SrcFile88>lib\doxygen\pex.doxyfile=1183482798</SrcFile88>
-    <SrcFile89>Drivers\Kinetis\StaticSdk_Kinetis.drv=1194226773</SrcFile89>
-    <SrcFile90>Drivers\Common\GeneralReturnNothing.inc=1183486427</SrcFile90>
-    <SrcFile91>Drivers\Common\RTOSAdaptor.prg=1183486427</SrcFile91>
-    <SrcFile92>Drivers\Common\HeaderCopyright.inc=1183486427</SrcFile92>
-    <SrcFile93>Drivers\PinSettings.src=-1</SrcFile93>
-    <SrcFile94>Drivers\Common\KinetisSettings.inc=1183486427</SrcFile94>
+    <SrcFile1>Drivers\Kinetis\PinSettings_MKL46Z256LL4_4SDK.prg=-1</SrcFile1>
+    <SrcFile2>Drivers\Kinetis\fsl_mcg_hal.drv=-1</SrcFile2>
+    <SrcFile3>Drivers\Common\PinSettingsAbstract.inc=-1</SrcFile3>
+    <SrcFile4>Drivers\Kinetis\fsl_osc_hal.drv=-1</SrcFile4>
+    <SrcFile5>Drivers\Kinetis\fsl_os_abstraction_code.drv=-1</SrcFile5>
+    <SrcFile6>Drivers\fsl_port_hal.src=-1</SrcFile6>
+    <SrcFile7>Drivers\Common\DoxyGenCpuDoc.prg=1183486427</SrcFile7>
+    <SrcFile8>Drivers\Common\Static_SetConst.prg=1183486427</SrcFile8>
+    <SrcFile9>Drivers\Common\KinetisSDKAbstract.Inc=1233805687</SrcFile9>
+    <SrcFile10>Drivers\sw\Wait.drv=1233805701</SrcFile10>
+    <SrcFile11>Drivers\sw\KinetisSDK.drv=1233805689</SrcFile11>
+    <SrcFile12>Drivers\Common\Header.end=1183486427</SrcFile12>
+    <SrcFile13>Drivers\KinetisSDK.src=1233805684</SrcFile13>
+    <SrcFile14>Drivers\Common\WriteBlock_NotRst.prg=1194226775</SrcFile14>
+    <SrcFile15>Drivers\Common\KinetisCommon_Init.inc=1183486427</SrcFile15>
+    <SrcFile16>Drivers\Wait.src=1233805693</SrcFile16>
+    <SrcFile17>Drivers\Common\HeaderFreescale.h=1183486427</SrcFile17>
+    <SrcFile18>Drivers\Common\Header.End=1183486427</SrcFile18>
+    <SrcFile19>Drivers\Common\GeneralParametersNone.inc=1183486427</SrcFile19>
+    <SrcFile20>Drivers\Kinetis\fsl_gpio_hal.drv=-1</SrcFile20>
+    <SrcFile21>Drivers\fsl_os_abstraction.src=-1</SrcFile21>
+    <SrcFile22>Drivers\Common\CopyrightUserC.inc=1183486427</SrcFile22>
+    <SrcFile23>Drivers\Common\Header.doxy=1183484379</SrcFile23>
+    <SrcFile24>Drivers\Common\GenInitConfigSequence.prg=1183486427</SrcFile24>
+    <SrcFile25>Drivers\Common\GeneralInternalGlobal.inc=1183486427</SrcFile25>
+    <SrcFile26>Drivers\Kinetis\fsl_os_abstraction.drv=-1</SrcFile26>
+    <SrcFile27>Drivers\Common\GeneralInternalDescription.prg=1183486427</SrcFile27>
+    <SrcFile28>Drivers\Common\Static_SupportSubroutines.prg=1194226775</SrcFile28>
+    <SrcFile29>Drivers\Common\WaitWaitms.Inc=1233805702</SrcFile29>
+    <SrcFile30>Drivers\Common\GeneralParameters.inc=1183486427</SrcFile30>
+    <SrcFile31>Drivers\Common\ToolChain_Settings.prg=1183486427</SrcFile31>
+    <SrcFile32>Drivers\Common\WaitWaitOSms.Inc=1233805700</SrcFile32>
+    <SrcFile33>Drivers\Common\HeaderFreescale.C=1183486427</SrcFile33>
+    <SrcFile34>Drivers\sw\RTOSAdaptor\Default_RTOSAdaptor.prg=1183482931</SrcFile34>
+    <SrcFile35>Drivers\Kinetis\KinetisSdk_Linker_V1.prg=1194226773</SrcFile35>
+    <SrcFile36>Drivers\fsl_gpio.src=-1</SrcFile36>
+    <SrcFile37>Drivers\Kinetis\fsl_port_hal.drv=-1</SrcFile37>
+    <SrcFile38>Drivers\sw\CommonSupport.prg=1233805702</SrcFile38>
+    <SrcFile39>Drivers\Kinetis\fsl_clock_manager.drv=-1</SrcFile39>
+    <SrcFile40>Drivers\sw\PinSettings.drv=-1</SrcFile40>
+    <SrcFile41>Drivers\Common\WaitWaitus.Inc=1233805699</SrcFile41>
+    <SrcFile42>Drivers\Common\WaitAbstract.Inc=1233805700</SrcFile42>
+    <SrcFile43>Drivers\Kinetis\HAL_Port_Bridge_V2.prg=1194226773</SrcFile43>
+    <SrcFile44>Drivers\Kinetis\fsl_gpio_code.drv=-1</SrcFile44>
+    <SrcFile45>Drivers\Common\InitReg32Block.prg=1183486427</SrcFile45>
+    <SrcFile46>Drivers\fsl_mcg_hal.src=-1</SrcFile46>
+    <SrcFile47>Drivers\fsl_clock_manager.src=-1</SrcFile47>
+    <SrcFile48>Drivers\Kinetis\fsl_gpio.drv=-1</SrcFile48>
+    <SrcFile49>Drivers\Common\CommonInitialization_NotRst.prg=1183486427</SrcFile49>
+    <SrcFile50>Drivers\Common\WaitWaitns.Inc=1233805700</SrcFile50>
+    <SrcFile51>Drivers\Common\WaitWaitCycles.Inc=1233805696</SrcFile51>
+    <SrcFile52>Drivers\Common\GenReg8BitsInitInfo.prg=1183486427</SrcFile52>
+    <SrcFile53>Drivers\Kinetis\fsl_rtc_hal.drv=-1</SrcFile53>
+    <SrcFile54>Drivers\Common\WaitWait10Cycles.Inc=1233805699</SrcFile54>
+    <SrcFile55>Drivers\Kinetis\fsl_clock_manager_code.drv=-1</SrcFile55>
+    <SrcFile56>Drivers\Common\WaitWaitLongCycles.Inc=1233805700</SrcFile56>
+    <SrcFile57>Drivers\Common\KinetisAbstract.inc=1183486427</SrcFile57>
+    <SrcFile58>Drivers\fsl_rtc_hal.src=-1</SrcFile58>
+    <SrcFile59>Drivers\Common\GenReg32BitsInitInfo.prg=1183486427</SrcFile59>
+    <SrcFile60>Drivers\Common\InitRegBlock.prg=1183486427</SrcFile60>
+    <SrcFile61>Drivers\fsl_gpio_hal.src=-1</SrcFile61>
+    <SrcFile62>Drivers\Common\GeneralDamage.inc=1183486427</SrcFile62>
+    <SrcFile63>Drivers\Common\EBGNSupport\StringLib.prg=1183486427</SrcFile63>
+    <SrcFile64>Drivers\KSDK.prg=1233805683</SrcFile64>
+    <SrcFile65>Drivers\Common\Header.c=1183486427</SrcFile65>
+    <SrcFile66>Drivers\fsl_interrupt_manager.src=-1</SrcFile66>
+    <SrcFile67>Drivers\Common\Header.h=1183486427</SrcFile67>
+    <SrcFile68>Drivers\Common\WaitWait100Cycles.Inc=1233805696</SrcFile68>
+    <SrcFile69>Drivers\Kinetis\Static_Kinetis_MCG.prg=1194226774</SrcFile69>
+    <SrcFile70>Drivers\KSDK\PE_KSDK_Types.h=1233805689</SrcFile70>
+    <SrcFile71>Drivers\Common\Doxy_CollectRegInitInfo.prg=1183486427</SrcFile71>
+    <SrcFile72>Drivers\sw\RTOSAdaptor\Common_RTOSAdaptor.prg=1183482931</SrcFile72>
+    <SrcFile73>Drivers\fsl_osc_hal.src=-1</SrcFile73>
+    <SrcFile74>Drivers\Kinetis\system_KinetisK_h.prg=1194226773</SrcFile74>
+    <SrcFile75>Drivers\Kinetis\HAL_Port_Bridge.prg=1194226774</SrcFile75>
+    <SrcFile76>Drivers\Common\Header.C=1183486427</SrcFile76>
+    <SrcFile77>Drivers\Kinetis\fsl_interrupt_manager.drv=-1</SrcFile77>
+    <SrcFile78>Drivers\Common\KinetisComponents_Init.inc=1183486427</SrcFile78>
+    <SrcFile79>Drivers\Common\GeneralISR.inc=1183486427</SrcFile79>
+    <SrcFile80>Drivers\fsl_sim_hal.src=-1</SrcFile80>
+    <SrcFile81>Drivers\Kinetis\fsl_sim_hal.drv=-1</SrcFile81>
+    <SrcFile82>Drivers\Common\GeneralMethod.inc=1183486427</SrcFile82>
+    <SrcFile83>lib\doxygen\pex.doxyfile=1183482798</SrcFile83>
+    <SrcFile84>Drivers\Kinetis\StaticSdk_Kinetis.drv=1194226773</SrcFile84>
+    <SrcFile85>Drivers\Common\GeneralReturnNothing.inc=1183486427</SrcFile85>
+    <SrcFile86>Drivers\Common\RTOSAdaptor.prg=1183486427</SrcFile86>
+    <SrcFile87>Drivers\Common\HeaderCopyright.inc=1183486427</SrcFile87>
+    <SrcFile88>Drivers\PinSettings.src=-1</SrcFile88>
+    <SrcFile89>Drivers\Common\KinetisSettings.inc=1183486427</SrcFile89>
   </UsedSrcFiles>
 </GenerationInfo_G_C>
 
