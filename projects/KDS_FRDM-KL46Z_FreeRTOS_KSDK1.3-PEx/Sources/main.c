@@ -30,12 +30,9 @@
 /* Including needed modules to compile this module/procedure */
 #include "Cpu.h"
 #include "Events.h"
-#include "rtos_main_task.h"
 #include "clockMan1.h"
 #include "pin_init.h"
 #include "osa1.h"
-#include "free_rtos.h"
-#include "MainTask.h"
 #if CPU_INIT_CONFIG
   #include "Init_Config.h"
 #endif

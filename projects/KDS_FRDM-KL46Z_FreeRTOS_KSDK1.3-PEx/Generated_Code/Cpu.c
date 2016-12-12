@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.3.0
 **     Datasheet   : KL46P121M48SF4RM, Rev.2, Dec 2012
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-12, 12:22, # CodeGen: 1
+**     Date/Time   : 2016-12-12, 13:07, # CodeGen: 2
 **     Abstract    :
 **
 **     Settings    :
@@ -67,7 +67,6 @@
 /* {Default RTOS Adapter} No RTOS includes */
 #include "Cpu.h"
 #include "Events.h"
-#include "rtos_main_task.h"
 
 
 #ifdef __cplusplus

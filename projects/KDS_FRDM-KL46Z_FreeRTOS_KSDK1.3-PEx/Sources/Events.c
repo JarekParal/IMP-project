@@ -29,7 +29,6 @@
 
 #include "Cpu.h"
 #include "Events.h"
-#include "rtos_main_task.h"
 
 #ifdef __cplusplus
 extern "C" {

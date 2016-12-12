@@ -34,8 +34,6 @@
 #include "clockMan1.h"
 #include "pin_init.h"
 #include "osa1.h"
-#include "free_rtos.h"
-#include "MainTask.h"
 
 #ifdef __cplusplus
 extern "C" {

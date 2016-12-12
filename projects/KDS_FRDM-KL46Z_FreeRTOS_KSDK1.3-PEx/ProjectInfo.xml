@@ -37,14 +37,11 @@
   <PATHS>
     <LinkerCommandFile>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
     <IncludePaths>
-      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\system\inc\</Path>
-      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\include\</Path>
-      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\port\gcc\</Path>
-      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\SDK\rtos\FreeRTOS\config\</Path>
-      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\osa\inc\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\inc\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\src\sim\MKL46Z4\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\system\src\clock\MKL46Z4\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\system\inc\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\osa\inc\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\CMSIS\Include\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\devices\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\devices\MKL46Z4\include\</Path>
@@ -72,8 +69,6 @@
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\system\src\clock\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\system\src\interrupt\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\utilities\src\</Path>
-      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\port\gcc\</Path>
-      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\src\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Sources\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Static_Code\System\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\devices\MKL46Z4\startup\gcc\</Path>
@@ -82,9 +77,7 @@
   <FILES>
     <GeneratedCs>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\Cpu.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\MainTask.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\clockMan1.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\free_rtos.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\hardware_init.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\osa1.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\pin_init.c</PathName>
@@ -99,7 +92,7 @@
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\src\rtc\fsl_rtc_hal.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\src\sim\MKL46Z4\fsl_sim_hal_MKL46Z4.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\src\uart\fsl_uart_hal.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\osa\src\fsl_os_abstraction_free_rtos.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\osa\src\fsl_os_abstraction_bm.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\system\src\clock\MKL46Z4\fsl_clock_MKL46Z4.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\system\src\clock\fsl_clock_manager.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\system\src\clock\fsl_clock_manager_common.c</PathName>
@@ -107,18 +100,6 @@
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\utilities\src\fsl_debug_console.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\utilities\src\fsl_misc_utilities.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\utilities\src\print_scan.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\port\gcc\port.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\src\croutine.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\src\event_groups.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\src\heap_1.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\src\heap_2.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\src\heap_3.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\src\heap_4.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\src\heap_5.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\src\list.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\src\queue.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\src\tasks.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\src\timers.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Sources\Events.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Sources\main.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Sources\rtos_main_task.c</PathName>
@@ -126,13 +107,10 @@
     </GeneratedCs>
     <GeneratedHs>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\Cpu.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\MainTask.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\PE_low_level_init.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\SDK\platform\devices\MKL46Z4\startup\system_MKL46Z4.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\SDK\rtos\FreeRTOS\config\FreeRTOSConfig.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\board.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\clockMan1.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\free_rtos.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\osa1.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Generated_Code\pin_init.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\CMSIS\Include\arm_common_tables.h</PathName>
@@ -158,41 +136,25 @@
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\inc\fsl_uart_hal.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\src\sim\MKL46Z4\fsl_sim_hal_MKL46Z4.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\osa\inc\fsl_os_abstraction.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\osa\inc\fsl_os_abstraction_free_rtos.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\osa\inc\fsl_os_abstraction_bm.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\system\inc\fsl_clock_manager.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\system\inc\fsl_interrupt_manager.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\system\src\clock\MKL46Z4\fsl_clock_MKL46Z4.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\utilities\inc\fsl_debug_console.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\utilities\inc\fsl_misc_utilities.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\utilities\src\print_scan.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\include\FreeRTOS.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\include\StackMacros.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\include\croutine.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\include\deprecated_definitions.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\include\event_groups.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\include\list.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\include\mpu_wrappers.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\include\portable.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\include\projdefs.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\include\queue.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\include\semphr.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\include\task.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\include\timers.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\port\gcc\portTicks.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\port\gcc\portmacro.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Sources\Events.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\Sources\rtos_main_task.h</PathName>
     </GeneratedHs>
     <GeneratedASMs>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\platform\devices\MKL46Z4\startup\gcc\startup_MKL46Z4.S</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx\SDK\rtos\FreeRTOS\port\gcc\portasm.S</PathName>
     </GeneratedASMs>
   </FILES>
   <OPTIONS>
     <BuildOptions>
       <CCoptList>
         <Option>-D CPU_MKL46Z256VLL4</Option>
-        <Option>-D FSL_RTOS_FREE_RTOS</Option>  
+        <Option>-D FSL_OSA_BM_TIMER_CONFIG=2</Option>  
       </CCoptList>
     </BuildOptions>
   </OPTIONS>

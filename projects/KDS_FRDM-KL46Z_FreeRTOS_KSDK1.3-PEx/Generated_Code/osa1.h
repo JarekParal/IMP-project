@@ -7,8 +7,10 @@
 **     Version     : Component 1.3.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.3.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-12, 12:22, # CodeGen: 1
+**     Date/Time   : 2016-12-12, 13:07, # CodeGen: 2
 **     Contents    :
+**         OSA_PollAllOtherTasks - void OSA_PollAllOtherTasks(void);
+**         DefaultISR            - void DefaultISR(void);
 **         OSA_SemaCreate        - osa_status_t OSA_SemaCreate(semaphore_t * pSem,uint8_t initValue);
 **         OSA_SemaWait          - osa_status_t OSA_SemaWait(semaphore_t * pSem,uint32_t timeout);
 **         OSA_SemaPost          - osa_status_t OSA_SemaPost(semaphore_t * pSem);
@@ -87,10 +89,13 @@
 #define __osa1_H
 /* MODULE osa1. */
 /* Include inherited beans */
-#include "free_rtos.h"
+#include "clockMan1.h"
 #include "Cpu.h"
 
+typedef task_param_t os_task_param_t;
+
 #define PEX_RTOS_INIT OSA_Init
+#define PEX_RTOS_START OSA_Start
 
 
 #endif
