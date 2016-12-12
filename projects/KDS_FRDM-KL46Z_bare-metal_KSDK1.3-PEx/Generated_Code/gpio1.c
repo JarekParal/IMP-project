@@ -7,7 +7,7 @@
 **     Version     : Component 1.3.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.3.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-11, 13:29, # CodeGen: 5
+**     Date/Time   : 2016-12-11, 23:05, # CodeGen: 7
 **
 **     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
@@ -51,6 +51,7 @@
 
 /* MODULE gpio1. */
 
+#include "Events.h"
 #include "gpio1.h"
 #include <stdbool.h>
 
@@ -60,7 +61,7 @@ const gpio_input_pin_user_config_t gpio1_InpConfig0[] = {
     .config.isPullEnable = true, 
     .config.pullSelect = kPortPullUp,
     .config.isPassiveFilterEnabled = true,
-    .config.interrupt = kPortIntDisabled
+    .config.interrupt = kPortIntRisingEdge
   },
   {
     .pinName = GPIO_PINS_OUT_OF_RANGE,

@@ -64,11 +64,6 @@ int main(void)
   WAIT1_Waitms(1000);
   for(;;)
   {
-	  if(GPIO_DRV_ReadPinInput(BUTTON_SW1) == FALSE)
-		  GPIO_DRV_WritePinOutput(LED2_RED, 0); // LED turn ON
-	  else
-	  	  GPIO_DRV_WritePinOutput(LED2_RED, 1);
-
 	  GPIO_DRV_WritePinOutput(LED1_GREEN, 0);
 	  WAIT1_Waitms(100);
 	  GPIO_DRV_WritePinOutput(LED1_GREEN, 1);

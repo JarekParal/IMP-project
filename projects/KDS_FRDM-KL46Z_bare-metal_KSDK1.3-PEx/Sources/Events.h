@@ -43,6 +43,18 @@ extern "C" {
 #endif 
 
 
+/*
+** ===================================================================
+**     Interrupt handler : PORTC_PORTD_IRQHandler
+**
+**     Description :
+**         User interrupt service routine. 
+**     Parameters  : None
+**     Returns     : Nothing
+** ===================================================================
+*/
+void PORTC_PORTD_IRQHandler(void);
+
 /* END Events */
 
 #ifdef __cplusplus

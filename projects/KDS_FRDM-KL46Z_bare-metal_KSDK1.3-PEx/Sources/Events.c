@@ -37,6 +37,26 @@ extern "C" {
 
 /* User includes (#include below this line is not maintained by Processor Expert) */
 
+/*
+** ===================================================================
+**     Interrupt handler : PORTC_PORTD_IRQHandler
+**
+**     Description :
+**         User interrupt service routine. 
+**     Parameters  : None
+**     Returns     : Nothing
+** ===================================================================
+*/
+void PORTC_PORTD_IRQHandler(void)
+{
+  if(GPIO_DRV_IsPinIntPending(BUTTON_SW1))
+	  GPIO_DRV_TogglePinOutput(LED2_RED); // LED turn ON
+
+  /* Clear interrupt flag.*/
+  PORT_HAL_ClearPortIntFlag(PORTC_BASE_PTR);
+  /* Write your code here ... */
+}
+
 /* END Events */
 
 #ifdef __cplusplus

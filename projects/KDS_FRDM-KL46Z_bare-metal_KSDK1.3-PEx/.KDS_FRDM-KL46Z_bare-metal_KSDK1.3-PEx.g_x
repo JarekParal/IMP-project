@@ -135,7 +135,7 @@
       <File Name="Generated_Code/gpio1.h" FileDate="2016-12-11, 13:29:12" FileAge="1481459352159" FileType="45637" CompNumb="14" />
       <File Name="Generated_Code/WAIT1.c" FileDate="2016-12-11, 13:04:10" FileAge="1481457850852" FileType="45637" CompNumb="17" />
       <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2016-12-11, 13:29:12" FileAge="1481459352222" FileType="45637" CompNumb="1" />
-      <File Name="Generated_Code/gpio1.c" FileDate="2016-12-11, 13:29:12" FileAge="1481459352167" FileType="45637" CompNumb="14" />
+      <File Name="Generated_Code/gpio1.c" FileDate="2016-12-11, 23:05:44" FileAge="1481493944366" FileType="45637" CompNumb="14" />
       <File Name="SDK/platform/utilities/src/fsl_debug_console.c" FileDate="2016-12-11, 11:25:41" FileAge="1481451941952" FileType="1048576" />
       <File Name="SDK/platform/hal/src/port/fsl_port_hal.c" FileDate="2016-12-11, 11:25:41" FileAge="1481451941520" FileType="1048576" />
       <File Name="SDK/platform/CMSIS/Include/core_cmSimd.h" FileDate="2016-12-11, 11:25:41" FileAge="1481451941658" FileType="1048576" />
@@ -172,9 +172,9 @@
       <File Name="SDK/platform/devices/MKL46Z4/include/MKL46Z4.h" FileDate="2016-12-11, 11:25:41" FileAge="1481451941787" FileType="1048576" />
       <File Name="SDK/platform/system/inc/fsl_clock_manager.h" FileDate="2016-12-11, 11:25:41" FileAge="1481451941492" FileType="1048576" />
       <File Name="SDK/platform/devices/startup.h" FileDate="2016-12-11, 11:25:42" FileAge="1481451942010" FileType="1048576" />
-      <File Name="Sources/Events.h" FileDate="2016-12-11, 13:04:10" FileAge="1481457850953" FileType="131328" />
+      <File Name="Sources/Events.h" FileDate="2016-12-11, 22:44:06" FileAge="1481492646986" FileType="131328" />
       <File Name="SDK/platform/devices/startup.c" FileDate="2016-12-11, 11:25:42" FileAge="1481451942005" FileType="1048576" />
-      <File Name="Sources/Events.c" FileDate="2016-12-11, 11:25:42" FileAge="1481451942065" FileType="131328" />
+      <File Name="Sources/Events.c" FileDate="2016-12-11, 23:01:22" FileAge="1481493682793" FileType="131328" />
       <File Name="Documentation/doxygen/pex.css" FileDate="2016-12-11, 11:25:40" FileAge="1481451940520" FileType="16384" CompNumb="1" />
       <File Name="SDK/platform/hal/src/lpsci/fsl_lpsci_hal.c" FileDate="2016-12-11, 11:25:41" FileAge="1481451941897" FileType="1048576" />
       <File Name="SDK/platform/hal/inc/fsl_lpsci_hal.h" FileDate="2016-12-11, 11:25:41" FileAge="1481451941922" FileType="1048576" />
@@ -190,7 +190,7 @@
       <File Name="SDK/platform/hal/src/uart/fsl_uart_hal.c" FileDate="2016-12-11, 11:25:41" FileAge="1481451941849" FileType="1048576" />
       <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2016-12-11, 11:25:42" FileAge="1481451942087" FileType="45637" CompNumb="1" />
       <File Name="SDK/platform/devices/MKL46Z4/include/MKL46Z4_features.h" FileDate="2016-12-11, 11:25:41" FileAge="1481451941820" FileType="1048576" />
-      <File Name="Sources/main.c" FileDate="2016-12-11, 13:22:31" FileAge="1481458951017" FileType="128" />
+      <File Name="Sources/main.c" FileDate="2016-12-11, 22:51:47" FileAge="1481493107616" FileType="128" />
       <File Name="SDK/platform/utilities/inc/fsl_misc_utilities.h" FileDate="2016-12-11, 11:25:41" FileAge="1481451941989" FileType="1048576" />
       <File Name="Generated_Code/board.h" FileDate="2016-12-11, 11:25:42" FileAge="1481451942196" FileType="45637" CompNumb="7" />
       <File Name="Generated_Code/SDK/platform/devices/MKL46Z4/startup/system_MKL46Z4.h" FileDate="2016-12-11, 11:25:42" FileAge="1481451942283" FileType="45637" CompNumb="2" />
@@ -213,5 +213,5 @@
       <File Name="Generated_Code/osa1.c" FileDate="2016-12-11, 11:25:42" FileAge="1481451942151" FileType="45637" CompNumb="12" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>6</CodeGenReference>
+  <CodeGenReference>9</CodeGenReference>
 </CodeGenerationInfo>
