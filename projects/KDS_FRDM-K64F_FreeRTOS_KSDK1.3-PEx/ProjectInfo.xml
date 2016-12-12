@@ -42,6 +42,7 @@
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\system\src\clock\MK64F12\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\system\inc\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\osa\inc\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\drivers\inc\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\CMSIS\Include\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\devices\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\devices\MK64F12\include\</Path>
@@ -56,7 +57,9 @@
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\Generated_Code\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\devices\MK64F12\startup\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\devices\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\drivers\src\gpio\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\drivers\src\rtc\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\src\gpio\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\src\mcg\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\src\osc\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\src\port\</Path>
@@ -77,12 +80,16 @@
     <GeneratedCs>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\Generated_Code\Cpu.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\Generated_Code\clockMan1.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\Generated_Code\gpio1.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\Generated_Code\hardware_init.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\Generated_Code\osa1.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\Generated_Code\pin_init.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\devices\MK64F12\startup\system_MK64F12.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\devices\startup.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\drivers\src\gpio\fsl_gpio_common.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\drivers\src\gpio\fsl_gpio_driver.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\drivers\src\rtc\fsl_rtc_common.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\src\gpio\fsl_gpio_hal.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\src\mcg\fsl_mcg_hal.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\src\mcg\fsl_mcg_hal_modes.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\src\osc\fsl_osc_hal.c</PathName>
@@ -108,6 +115,7 @@
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\Generated_Code\SDK\platform\devices\MK64F12\startup\system_MK64F12.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\Generated_Code\board.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\Generated_Code\clockMan1.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\Generated_Code\gpio1.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\Generated_Code\osa1.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\Generated_Code\pin_init.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\CMSIS\Include\arm_common_tables.h</PathName>
@@ -123,6 +131,8 @@
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\devices\MK64F12\include\fsl_bitaccess.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\devices\fsl_device_registers.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\devices\startup.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\drivers\inc\fsl_gpio_driver.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\inc\fsl_gpio_hal.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\inc\fsl_mcg_hal.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\inc\fsl_mcg_hal_modes.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FRDM-K64F_FreeRTOS_KSDK1.3-PEx\SDK\platform\hal\inc\fsl_osc_hal.h</PathName>

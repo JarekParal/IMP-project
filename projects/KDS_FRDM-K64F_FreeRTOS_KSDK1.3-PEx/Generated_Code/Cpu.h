@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.3.0
 **     Datasheet   : K64P144M120SF5RM, Rev.2, January 2014
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-12, 14:19, # CodeGen: 0
+**     Date/Time   : 2016-12-12, 14:21, # CodeGen: 1
 **     Abstract    :
 **
 **     Settings    :
@@ -78,6 +78,8 @@
 #include "fsl_interrupt_manager.h"
 #include "fsl_os_abstraction.h"
 #include "osa1.h"
+#include "fsl_gpio_hal.h"
+#include "fsl_gpio_driver.h"
 #include <assert.h>
 
 #ifdef __cplusplus

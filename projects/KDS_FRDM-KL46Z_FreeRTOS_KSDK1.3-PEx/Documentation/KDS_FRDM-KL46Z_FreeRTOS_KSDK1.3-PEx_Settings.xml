@@ -182,7 +182,10 @@
       <Component_name v="FRTOS1" />
       <RTOS_Version v="V9.0.0" />
       <Kinetis_SDK v="KSDK1" />
-      <boolgroup name="Kinetis SDK" v="Disabled" />
+      <boolgroup name="Kinetis SDK" v="Enabled">
+        <Generate_PEX_RTOS_Macros v="yes" />
+        <Generate_OSA_Functions v="yes" />
+      </boolgroup>
       <group name="Custom Port">
         <Compiler v="automatic" />
         <boolgroup name="Static Sources" v="Disabled" />
@@ -203,7 +206,7 @@
         <boolgroup name="ColdFire V2" v="Disabled" />
         <boolgroup name="Kinetis" v="Enabled">
           <ARM_Family v="Cortex-M0+" />
-          <Max_SysCall_Interrupt_Priority v="3" />
+          <Max_SysCall_Interrupt_Priority v="1" />
           <RTOS_Interrupt_Priority v="3" />
           <Lowest_Interrupt_Priority v="3" />
           <Compiler_Optimization_Level v="0" />

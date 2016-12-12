@@ -7,14 +7,16 @@
 **     Version     : Component 01.508, Driver 01.00, CPU db: 3.00.000
 **     Repository  : McuOnEclipse
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-12, 13:28, # CodeGen: 3
+**     Date/Time   : 2016-12-12, 15:56, # CodeGen: 6
 **     Abstract    :
 **          This component implements the FreeRTOS Realtime Operating System
 **     Settings    :
 **          Component name                                 : FRTOS1
 **          RTOS Version                                   : V9.0.0
 **          Kinetis SDK                                    : KSDK1
-**          Kinetis SDK                                    : Disabled
+**          Kinetis SDK                                    : Enabled
+**            Generate PEX_RTOS Macros                     : yes
+**            Generate OSA Functions                       : yes
 **          Custom Port                                    : Custom port settings
 **            Compiler                                     : automatic
 **            Static Sources                               : Disabled
@@ -34,7 +36,7 @@
 **            ColdFire V2                                  : Disabled
 **            Kinetis                                      : Enabled
 **              ARM Family                                 : Cortex-M0+
-**              Max SysCall Interrupt Priority             : 3
+**              Max SysCall Interrupt Priority             : 1
 **              RTOS Interrupt Priority                    : 3
 **              Lowest Interrupt Priority                  : 3
 **              Compiler Optimization Level                : 0
@@ -223,6 +225,27 @@
 #endif
 #include "portTicks.h"                 /* interface to tick counter */
 
+
+#if KSDK1_SDK_VERSION_USED == KSDK1_SDK_VERSION_1_3
+#include "fsl_os_abstraction.h"
+
+/*!
+ * \brief Initializes the OS Adapter layer for the Kinetis SDK.
+ * \return Error code, kStatus_OSA_Success if everything is ok.
+ */
+osa_status_t OSA_Init(void) {
+  return kStatus_OSA_Success;
+}
+
+/*!
+ * \brief Starts the OS within the OS Adapter layer of the Kinetis SDK
+ * \return Error code, kStatus_OSA_Success if everything is ok.
+ */
+osa_status_t OSA_Start(void) {
+  vTaskStartScheduler(); /* start the RTOS scheduler */
+  return kStatus_OSA_Success;
+}
+#endif
 
 /*
 ** ===================================================================

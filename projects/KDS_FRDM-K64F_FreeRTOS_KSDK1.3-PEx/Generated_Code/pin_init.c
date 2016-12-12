@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : KSDK 1.3.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-12, 14:19, # CodeGen: 0
+**     Date/Time   : 2016-12-12, 14:21, # CodeGen: 1
 **     Abstract    :
 **
 **     Settings    :
@@ -1418,6 +1418,58 @@ void init_enet_pins(uint32_t instance)
 void deinit_enet_pins(uint32_t instance)
 {
   PORT_HAL_SetMuxMode(PORTA,18UL,kPortPinDisabled);
+}
+/*FUNCTION**********************************************************************
+*
+* Function Name : init_gpio_pins
+* Description   : GPIO method sets registers according routing settings.
+* Call this method code to route desired pins.
+*END**************************************************************************/
+void init_gpio_pins(uint32_t instance)
+{
+  switch(instance) {    
+    case PORTB_IDX:                     /* PORTB_IDX */
+      /* Affects PORTB_PCR21 register */
+      PORT_HAL_SetDriveStrengthMode(PORTB,21UL,kPortLowDriveStrength);  
+      PORT_HAL_SetMuxMode(PORTB,21UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTB,21UL,kPortSlowSlewRate);
+      PORT_HAL_SetOpenDrainCmd(PORTB,21UL,true);
+      /* Affects PORTB_PCR22 register */
+      PORT_HAL_SetDriveStrengthMode(PORTB,22UL,kPortLowDriveStrength);  
+      PORT_HAL_SetMuxMode(PORTB,22UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTB,22UL,kPortSlowSlewRate);
+      PORT_HAL_SetOpenDrainCmd(PORTB,22UL,true);
+      break;
+    case PORTE_IDX:                     /* PORTE_IDX */
+      /* Affects PORTE_PCR26 register */
+      PORT_HAL_SetDriveStrengthMode(PORTE,26UL,kPortLowDriveStrength);  
+      PORT_HAL_SetMuxMode(PORTE,26UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTE,26UL,kPortSlowSlewRate);
+      PORT_HAL_SetOpenDrainCmd(PORTE,26UL,true);
+      break;
+    default:
+      break;
+  }
+}
+/*FUNCTION**********************************************************************
+*
+* Function Name : deinit_gpio_pins
+* Description   : GPIO method sets registers according routing settings.
+* Call this method code to disable routing of desired pins.
+*END**************************************************************************/
+void deinit_gpio_pins(uint32_t instance)
+{
+  switch(instance) {    
+    case PORTB_IDX:                     /* PORTB_IDX */
+      PORT_HAL_SetMuxMode(PORTB,21UL,kPortPinDisabled);
+      PORT_HAL_SetMuxMode(PORTB,22UL,kPortPinDisabled);
+      break;
+    case PORTE_IDX:                     /* PORTE_IDX */
+      PORT_HAL_SetMuxMode(PORTE,26UL,kPortPinDisabled);
+      break;
+    default:
+      break;
+  }
 }
 
 /*FUNCTION**********************************************************************

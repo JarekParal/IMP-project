@@ -34,6 +34,7 @@
 #include "clockMan1.h"
 #include "pin_init.h"
 #include "osa1.h"
+#include "gpio1.h"
 
 #ifdef __cplusplus
 extern "C" {
