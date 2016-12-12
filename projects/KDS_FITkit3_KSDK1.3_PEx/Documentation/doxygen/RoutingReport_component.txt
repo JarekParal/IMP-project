@@ -111,15 +111,15 @@
 			</tr>
 			<tr>
 				<td>13</td><td>PTE10/UART5_CTS_b/I2S0_TXD0</td><td><small><i>same</i></small></td>
-				<td></td><td></td><td></td><td></td>
+				<td bgcolor='#F7DCFF'>GPIOE</td><td bgcolor='#F7DCFF'>port10</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Input</td>
 			</tr>
 			<tr>
 				<td>14</td><td>PTE11/UART5_RTS_b/I2S0_TX_FS</td><td><small><i>same</i></small></td>
-				<td></td><td></td><td></td><td></td>
+				<td bgcolor='#F7DCFF'>GPIOE</td><td bgcolor='#F7DCFF'>port11</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Input</td>
 			</tr>
 			<tr>
 				<td>15</td><td>PTE12/I2S0_TX_BCLK</td><td><small><i>same</i></small></td>
-				<td></td><td></td><td></td><td></td>
+				<td bgcolor='#F7DCFF'>GPIOE</td><td bgcolor='#F7DCFF'>port12</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Input</td>
 			</tr>
 			<tr>
 				<td>16</td><td>VDD16</td><td><small><i>same</i></small></td>
@@ -277,11 +277,11 @@
 			</tr>
 			<tr>
 				<td>47</td><td>PTE26/ENET_1588_CLKIN/UART4_CTS_b/RTC_CLKOUT/USB_CLKIN</td><td><small><i>same</i></small></td>
-				<td></td><td></td><td></td><td></td>
+				<td bgcolor='#F7DCFF'>GPIOE</td><td bgcolor='#F7DCFF'>port26</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Input</td>
 			</tr>
 			<tr>
 				<td>48</td><td>PTE27/UART4_RTS_b</td><td><small><i>same</i></small></td>
-				<td></td><td></td><td></td><td></td>
+				<td bgcolor='#F7DCFF'>GPIOE</td><td bgcolor='#F7DCFF'>port27</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Input</td>
 			</tr>
 			<tr>
 				<td>49</td><td>PTE28</td><td><small><i>same</i></small></td>
@@ -437,22 +437,20 @@
 			<tr bgcolor='#F8FF9A'><td>ADC1</td><td>adc_se9</td><td>alt0</td><td>Input</td></tr>
 			<tr bgcolor='#E5C3FF'><td>TSI0</td><td>tsi_ch6</td><td>alt0</td><td>Input</td></tr>
 			<tr>
-				<td rowspan='2'>83</td><td rowspan='2'>ADC0_SE12/TSI0_CH7/PTB2/I2C0_SCL/UART0_RTS_b/ENET0_1588_TMR0/FTM0_FLT3</td><td rowspan='2'><small><i>same</i></small></td>
-				<td bgcolor='#F8FF9A'>ADC0</td><td bgcolor='#F8FF9A'>adc_se12</td><td bgcolor='#F8FF9A'>alt0</td><td bgcolor='#F8FF9A'>Input</td>
+				<td>83</td><td>ADC0_SE12/TSI0_CH7/PTB2/I2C0_SCL/UART0_RTS_b/ENET0_1588_TMR0/FTM0_FLT3</td><td><small><i>same</i></small></td>
+				<td bgcolor='#F7DCFF'>GPIOB</td><td bgcolor='#F7DCFF'>port2</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Output</td>
 			</tr>
-			<tr bgcolor='#E5C3FF'><td>TSI0</td><td>tsi_ch7</td><td>alt0</td><td>Input</td></tr>
 			<tr>
-				<td rowspan='2'>84</td><td rowspan='2'>ADC0_SE13/TSI0_CH8/PTB3/I2C0_SDA/UART0_CTS_b/UART0_COL_b/ENET0_1588_TMR1/FTM0_FLT0</td><td rowspan='2'><small><i>same</i></small></td>
-				<td bgcolor='#F8FF9A'>ADC0</td><td bgcolor='#F8FF9A'>adc_se13</td><td bgcolor='#F8FF9A'>alt0</td><td bgcolor='#F8FF9A'>Input</td>
+				<td>84</td><td>ADC0_SE13/TSI0_CH8/PTB3/I2C0_SDA/UART0_CTS_b/UART0_COL_b/ENET0_1588_TMR1/FTM0_FLT0</td><td><small><i>same</i></small></td>
+				<td bgcolor='#F7DCFF'>GPIOB</td><td bgcolor='#F7DCFF'>port3</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Output</td>
 			</tr>
-			<tr bgcolor='#E5C3FF'><td>TSI0</td><td>tsi_ch8</td><td>alt0</td><td>Input</td></tr>
 			<tr>
 				<td>85</td><td>ADC1_SE10/PTB4/ENET0_1588_TMR2/FTM1_FLT0</td><td><small><i>same</i></small></td>
-				<td bgcolor='#F8FF9A'>ADC1</td><td bgcolor='#F8FF9A'>adc_se10</td><td bgcolor='#F8FF9A'>alt0</td><td bgcolor='#F8FF9A'>Input</td>
+				<td bgcolor='#F7DCFF'>GPIOB</td><td bgcolor='#F7DCFF'>port4</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Output</td>
 			</tr>
 			<tr>
 				<td>86</td><td>ADC1_SE11/PTB5/ENET0_1588_TMR3/FTM2_FLT0</td><td><small><i>same</i></small></td>
-				<td bgcolor='#F8FF9A'>ADC1</td><td bgcolor='#F8FF9A'>adc_se11</td><td bgcolor='#F8FF9A'>alt0</td><td bgcolor='#F8FF9A'>Input</td>
+				<td bgcolor='#F7DCFF'>GPIOB</td><td bgcolor='#F7DCFF'>port5</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Output</td>
 			</tr>
 			<tr>
 				<td>87</td><td>ADC1_SE12/PTB6/FB_AD23</td><td><small><i>same</i></small></td>
@@ -2565,15 +2563,15 @@
 			</tr>
 			<tr>
 				<td>13</td><td>PTE10/UART5_CTS_b/I2S0_TXD0</td><td><small><i>same</i></small></td>
-				<td></td><td></td><td></td><td></td>
+				<td bgcolor='#F7DCFF'>GPIOE</td><td bgcolor='#F7DCFF'>port10</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Input</td>
 			</tr>
 			<tr>
 				<td>14</td><td>PTE11/UART5_RTS_b/I2S0_TX_FS</td><td><small><i>same</i></small></td>
-				<td></td><td></td><td></td><td></td>
+				<td bgcolor='#F7DCFF'>GPIOE</td><td bgcolor='#F7DCFF'>port11</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Input</td>
 			</tr>
 			<tr>
 				<td>15</td><td>PTE12/I2S0_TX_BCLK</td><td><small><i>same</i></small></td>
-				<td></td><td></td><td></td><td></td>
+				<td bgcolor='#F7DCFF'>GPIOE</td><td bgcolor='#F7DCFF'>port12</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Input</td>
 			</tr>
 			<tr>
 				<td>16</td><td>VDD16</td><td><small><i>same</i></small></td>
@@ -2731,11 +2729,11 @@
 			</tr>
 			<tr>
 				<td>47</td><td>PTE26/ENET_1588_CLKIN/UART4_CTS_b/RTC_CLKOUT/USB_CLKIN</td><td><small><i>same</i></small></td>
-				<td></td><td></td><td></td><td></td>
+				<td bgcolor='#F7DCFF'>GPIOE</td><td bgcolor='#F7DCFF'>port26</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Input</td>
 			</tr>
 			<tr>
 				<td>48</td><td>PTE27/UART4_RTS_b</td><td><small><i>same</i></small></td>
-				<td></td><td></td><td></td><td></td>
+				<td bgcolor='#F7DCFF'>GPIOE</td><td bgcolor='#F7DCFF'>port27</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Input</td>
 			</tr>
 			<tr>
 				<td>49</td><td>PTE28</td><td><small><i>same</i></small></td>
@@ -2891,22 +2889,20 @@
 			<tr bgcolor='#F8FF9A'><td>ADC1</td><td>adc_se9</td><td>alt0</td><td>Input</td></tr>
 			<tr bgcolor='#E5C3FF'><td>TSI0</td><td>tsi_ch6</td><td>alt0</td><td>Input</td></tr>
 			<tr>
-				<td rowspan='2'>83</td><td rowspan='2'>ADC0_SE12/TSI0_CH7/PTB2/I2C0_SCL/UART0_RTS_b/ENET0_1588_TMR0/FTM0_FLT3</td><td rowspan='2'><small><i>same</i></small></td>
-				<td bgcolor='#F8FF9A'>ADC0</td><td bgcolor='#F8FF9A'>adc_se12</td><td bgcolor='#F8FF9A'>alt0</td><td bgcolor='#F8FF9A'>Input</td>
+				<td>83</td><td>ADC0_SE12/TSI0_CH7/PTB2/I2C0_SCL/UART0_RTS_b/ENET0_1588_TMR0/FTM0_FLT3</td><td><small><i>same</i></small></td>
+				<td bgcolor='#F7DCFF'>GPIOB</td><td bgcolor='#F7DCFF'>port2</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Output</td>
 			</tr>
-			<tr bgcolor='#E5C3FF'><td>TSI0</td><td>tsi_ch7</td><td>alt0</td><td>Input</td></tr>
 			<tr>
-				<td rowspan='2'>84</td><td rowspan='2'>ADC0_SE13/TSI0_CH8/PTB3/I2C0_SDA/UART0_CTS_b/UART0_COL_b/ENET0_1588_TMR1/FTM0_FLT0</td><td rowspan='2'><small><i>same</i></small></td>
-				<td bgcolor='#F8FF9A'>ADC0</td><td bgcolor='#F8FF9A'>adc_se13</td><td bgcolor='#F8FF9A'>alt0</td><td bgcolor='#F8FF9A'>Input</td>
+				<td>84</td><td>ADC0_SE13/TSI0_CH8/PTB3/I2C0_SDA/UART0_CTS_b/UART0_COL_b/ENET0_1588_TMR1/FTM0_FLT0</td><td><small><i>same</i></small></td>
+				<td bgcolor='#F7DCFF'>GPIOB</td><td bgcolor='#F7DCFF'>port3</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Output</td>
 			</tr>
-			<tr bgcolor='#E5C3FF'><td>TSI0</td><td>tsi_ch8</td><td>alt0</td><td>Input</td></tr>
 			<tr>
 				<td>85</td><td>ADC1_SE10/PTB4/ENET0_1588_TMR2/FTM1_FLT0</td><td><small><i>same</i></small></td>
-				<td bgcolor='#F8FF9A'>ADC1</td><td bgcolor='#F8FF9A'>adc_se10</td><td bgcolor='#F8FF9A'>alt0</td><td bgcolor='#F8FF9A'>Input</td>
+				<td bgcolor='#F7DCFF'>GPIOB</td><td bgcolor='#F7DCFF'>port4</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Output</td>
 			</tr>
 			<tr>
 				<td>86</td><td>ADC1_SE11/PTB5/ENET0_1588_TMR3/FTM2_FLT0</td><td><small><i>same</i></small></td>
-				<td bgcolor='#F8FF9A'>ADC1</td><td bgcolor='#F8FF9A'>adc_se11</td><td bgcolor='#F8FF9A'>alt0</td><td bgcolor='#F8FF9A'>Input</td>
+				<td bgcolor='#F7DCFF'>GPIOB</td><td bgcolor='#F7DCFF'>port5</td><td bgcolor='#F7DCFF'>alt1</td><td bgcolor='#F7DCFF'>Output</td>
 			</tr>
 			<tr>
 				<td>87</td><td>ADC1_SE12/PTB6/FB_AD23</td><td><small><i>same</i></small></td>

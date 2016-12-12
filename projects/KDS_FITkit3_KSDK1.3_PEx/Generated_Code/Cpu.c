@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.3.0
 **     Datasheet   : K60P144M100SF2V2RM Rev. 2, Jun 2012
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-12, 23:38, # CodeGen: 0
+**     Date/Time   : 2016-12-12, 23:47, # CodeGen: 1
 **     Abstract    :
 **
 **     Settings    :
@@ -107,6 +107,12 @@ void Common_Init(void)
 void Components_Init(void)
 {
 
+  /*! gpio1 Auto initialization start */
+  GPIO_DRV_Init(gpio1_InpConfig0,gpio1_OutConfig0);
+  /*! gpio1 Auto initialization end */
+  
+  /* ### KinetisSDK "KSDK1" init code ... */
+  /* Write code here ... */
 }
 #endif /* CPU_COMPONENTS_INIT */
 

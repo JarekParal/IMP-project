@@ -195,6 +195,14 @@ Module "pin_mux"   (component PinSettings)
                 provides pin initialization for selected pins during processor start-up. Selected pins are either user selected 
                 pins or pins selected in pin properties in components.  Only pins of devices  enabled for auto initialization 
                 are handled within this method.
+   - pin_mux_init_gpio_pins -GPIO method configures registers according to settings  of routing and electrical features. This 
+                method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either user 
+                selected pins or pins selected in pin items in components. Call this method code to route desired pins into 
+                GPIOA, GPIOB, GPIOC, GPIOD, GPIOE peripherals.
+   - pin_mux_deinit_gpio_pins -GPIO method de-configures registers according to settings of routing. This method is enabled 
+                only if any pin of corresponding peripheral type is selected. Selected pins are either user selected pins or 
+                pins selected in pin items in components. Call this method code to un-route desired pins into GPIOA, GPIOB, 
+                GPIOC, GPIOD, GPIOE peripherals.
    - pin_mux_init_jtag_pins -JTAG method configures registers according to settings  of routing and electrical features. This 
                 method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either user 
                 selected pins or pins selected in pin items in components. Call this method code to route desired pins into 
@@ -247,6 +255,34 @@ Module "intMan1"   (component fsl_interrupt_manager)
    - intMan1_INT_SYS_DisableIRQ -Disables an interrupt for a given IRQ number.
    - intMan1_INT_SYS_EnableIRQGlobal -Enables system interrupt.
    - intMan1_INT_SYS_DisableIRQGlobal -Disable system interrupt.
+
+Module "gpio1"     (component fsl_gpio)
+   - gpio1_GPIO_DRV_Init -Initializes all GPIO pins used by the board.
+   - gpio1_GPIO_DRV_InputPinInit -Initializes one GPIO input pin used by the board.
+   - gpio1_GPIO_DRV_OutputPinInit -Initializes one GPIO output pin used by the board.
+   - gpio1_GPIO_DRV_GetPinDir -Gets the current direction of the individual GPIO pin.
+   - gpio1_GPIO_DRV_SetPinDir -Sets the current direction of the individual GPIO pin.
+   - gpio1_GPIO_DRV_WritePinOutput -Sets the output level of the individual GPIO pin to the logic 1 or 0.
+   - gpio1_GPIO_DRV_SetPinOutput -Sets the output level of the individual GPIO pin to the logic 1.
+   - gpio1_GPIO_DRV_ClearPinOutput -Sets the output level of the individual GPIO pin to the logic 0.
+   - gpio1_GPIO_DRV_TogglePinOutput -Reverses current output logic of the individual GPIO pin.
+   - gpio1_GPIO_DRV_ReadPinInput -Reads the current input value of the individual GPIO pin.
+   - gpio1_GPIO_DRV_SetDigitalFilterCmd -Enables or disables the digital filter in a single port.
+   - gpio1_GPIO_DRV_IsPinIntPending -Reads the individual pin-interrupt status flag.
+   - gpio1_GPIO_DRV_ClearPinIntFlag -Clears the individual GPIO pin interrupt status flag.
+
+Module "WAIT1"     (component Wait)
+   - WAIT1_Wait10Cycles -Wait for 10 CPU cycles.
+   - WAIT1_Wait100Cycles -Wait for 100 CPU cycles.
+   - WAIT1_WaitCycles -Wait for a specified number of CPU cycles (16bit data type).
+   - WAIT1_WaitLongCycles -Wait for a specified number of CPU cycles (32bit data type).
+   - WAIT1_Waitms -Wait for a specified time in milliseconds.
+   - WAIT1_Waitus -Wait for a specified time in microseconds.
+   - WAIT1_Waitns -Wait for a specified time in nano seconds.
+   - WAIT1_WaitOSms -If an RTOS is enabled, this routine will use a non-blocking wait method. Otherwise it will do a 
+                busy/blocking wait.
+
+Module "KSDK1"     (component KinetisSDK)
 
 Module "Cpu"       (component MK60DN512LQ10_4SDK)
    - Cpu_SystemInit -This method configures the oscillator (PLL) that is part of the microcontroller device. SystemInit is 

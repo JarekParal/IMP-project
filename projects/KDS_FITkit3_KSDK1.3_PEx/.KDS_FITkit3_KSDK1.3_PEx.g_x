@@ -12,7 +12,7 @@
     </option>
     <option>
       <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
-      <values lines_count="33">
+      <values lines_count="36">
         <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MK60D10"</Line>
@@ -29,6 +29,9 @@
         <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
         <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
         <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
@@ -72,7 +75,7 @@
     </option>
     <option>
       <name>PE_G_4PEx_ToolChain_CompilerCpp_SearchUserPaths</name>
-      <values lines_count="33">
+      <values lines_count="36">
         <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MK60D10"</Line>
@@ -89,6 +92,9 @@
         <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
         <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
         <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
@@ -117,25 +123,26 @@
   </ToolchainSettings>
   <GeneratedFilesList>
     <GeneratedByPE>
-      <File Name="Documentation/KDS_FITkit3_KSDK1.3_PEx_Settings.xml" FileDate="2016-12-12, 23:39:14" FileAge="1481582354553" FileType="3072" />
+      <File Name="Documentation/KDS_FITkit3_KSDK1.3_PEx_Settings.xml" FileDate="2016-12-12, 23:47:19" FileAge="1481582839950" FileType="3072" />
       <File Name="SDK/platform/utilities/src/fsl_misc_utilities.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353876" FileType="1048576" />
       <File Name="SDK/platform/CMSIS/Include/core_cm4.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353627" FileType="1048576" />
       <File Name="SDK/platform/hal/inc/fsl_rtc_hal.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353308" FileType="1048576" />
       <File Name="SDK/platform/drivers/src/rtc/fsl_rtc_common.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353496" FileType="1048576" />
-      <File Name="Generated_Code/pin_mux.h" FileDate="2016-12-12, 23:39:14" FileAge="1481582354119" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/pin_mux.h" FileDate="2016-12-12, 23:47:19" FileAge="1481582839292" FileType="45637" CompNumb="10" />
       <File Name="SDK/platform/hal/inc/fsl_mcg_hal.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353169" FileType="1048576" />
       <File Name="SDK/platform/system/inc/fsl_clock_manager.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353443" FileType="1048576" />
       <File Name="SDK/platform/CMSIS/Include/arm_const_structs.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353696" FileType="1048576" />
       <File Name="SDK/platform/devices/MK60D10/include/fsl_bitaccess.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353748" FileType="1048576" />
       <File Name="SDK/platform/osa/src/fsl_os_abstraction_bm.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353575" FileType="1048576" />
-      <File Name="Generated_Code/pin_mux.c" FileDate="2016-12-12, 23:39:14" FileAge="1481582354104" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2016-12-12, 23:47:19" FileAge="1481582839315" FileType="45637" CompNumb="10" />
       <File Name="SDK/platform/CMSIS/Include/core_cmSimd.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353637" FileType="1048576" />
-      <File Name="Documentation/KDS_FITkit3_KSDK1.3_PEx.txt" FileDate="2016-12-12, 23:39:15" FileAge="1481582355308" FileType="3072" />
+      <File Name="Documentation/KDS_FITkit3_KSDK1.3_PEx.txt" FileDate="2016-12-12, 23:47:20" FileAge="1481582840590" FileType="3072" />
       <File Name="SDK/platform/hal/inc/fsl_osc_hal.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353263" FileType="1048576" />
       <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353140" FileType="1048576" />
-      <File Name="Sources/main.c" FileDate="2016-12-12, 23:39:14" FileAge="1481582354038" FileType="128" />
+      <File Name="Sources/main.c" FileDate="2016-12-12, 23:47:19" FileAge="1481582839348" FileType="128" />
+      <File Name="Generated_Code/PE_KSDK_Types.h" FileDate="2016-12-12, 23:47:19" FileAge="1481582839209" FileType="45637" CompNumb="25" />
       <File Name="SDK/platform/devices/startup.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353913" FileType="1048576" />
-      <File Name="ProjectInfo.xml" FileDate="2016-12-12, 23:39:15" FileAge="1481582355292" FileType="45637" />
+      <File Name="ProjectInfo.xml" FileDate="2016-12-12, 23:47:20" FileAge="1481582840569" FileType="45637" />
       <File Name="SDK/platform/hal/src/rtc/fsl_rtc_hal.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353287" FileType="1048576" />
       <File Name="SDK/platform/hal/src/port/fsl_port_hal.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353512" FileType="1048576" />
       <File Name="SDK/platform/devices/startup.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353909" FileType="1048576" />
@@ -147,6 +154,7 @@
       <File Name="Project_Settings/Linker_Files/ProcessorExpert.ld" FileDate="2016-12-12, 23:39:14" FileAge="1481582354017" FileType="8" CompNumb="4" />
       <File Name="SDK/platform/hal/src/sim/MK60D10/fsl_sim_hal_MK60D10.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353251" FileType="1048576" />
       <File Name="SDK/platform/hal/src/sim/MK60D10/fsl_sim_hal_MK60D10.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353229" FileType="1048576" />
+      <File Name="SDK/platform/hal/src/gpio/fsl_gpio_hal.c" FileDate="2016-12-12, 23:47:18" FileAge="1481582838861" FileType="1048576" />
       <File Name="SDK/platform/utilities/inc/fsl_misc_utilities.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353905" FileType="1048576" />
       <File Name="SDK/platform/devices/MK60D10/startup/system_MK60D10.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353942" FileType="1048576" />
       <File Name="SDK/platform/system/src/clock/MK60D10/fsl_clock_MK60D10.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353415" FileType="1048576" />
@@ -157,9 +165,12 @@
       <File Name="SDK/platform/utilities/src/print_scan.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353894" FileType="1048576" />
       <File Name="SDK/platform/devices/fsl_device_registers.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353739" FileType="1048576" />
       <File Name="SDK/platform/utilities/src/print_scan.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353889" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_common.c" FileDate="2016-12-12, 23:47:18" FileAge="1481582838896" FileType="1048576" />
       <File Name="SDK/platform/system/inc/fsl_interrupt_manager.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353546" FileType="1048576" />
+      <File Name="Generated_Code/KSDK1.h" FileDate="2016-12-12, 23:47:19" FileAge="1481582839221" FileType="45637" CompNumb="25" />
       <File Name="Documentation/doxygen/KDS_FITkit3_KSDK1.3_PEx_project.txt" FileDate="2016-12-12, 23:39:14" FileAge="1481582354010" FileType="45637" CompNumb="4" />
       <File Name="Generated_Code/SDK/platform/devices/MK60D10/startup/system_MK60D10.h" FileDate="2016-12-12, 23:39:14" FileAge="1481582354145" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/KSDK1.c" FileDate="2016-12-12, 23:47:19" FileAge="1481582839215" FileType="45637" CompNumb="25" />
       <File Name="Generated_Code/board.h" FileDate="2016-12-12, 23:39:14" FileAge="1481582354089" FileType="45637" CompNumb="10" />
       <File Name="SDK/platform/utilities/inc/fsl_debug_console.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353901" FileType="1048576" />
       <File Name="SDK/platform/osa/inc/fsl_os_abstraction_bm.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353609" FileType="1048576" />
@@ -167,29 +178,36 @@
       <File Name="SDK/platform/osa/inc/fsl_os_abstraction.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353606" FileType="1048576" />
       <File Name="SDK/platform/hal/inc/fsl_sim_hal.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353204" FileType="1048576" />
       <File Name="SDK/platform/system/src/interrupt/fsl_interrupt_manager.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353543" FileType="1048576" />
-      <File Name="Sources/Events.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353965" FileType="131328" />
+      <File Name="Sources/Events.h" FileDate="2016-12-12, 23:47:19" FileAge="1481582839457" FileType="131328" />
       <File Name="Sources/Events.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353960" FileType="131328" />
       <File Name="Generated_Code/PE_low_level_init.h" FileDate="2016-12-12, 23:39:14" FileAge="1481582354022" FileType="45637" CompNumb="4" />
       <File Name="SDK/platform/system/src/clock/fsl_clock_manager_common.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353357" FileType="1048576" />
       <File Name="SDK/platform/devices/MK60D10/include/MK60D10.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353771" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_driver.c" FileDate="2016-12-12, 23:47:18" FileAge="1481582838924" FileType="1048576" />
       <File Name="Static_Code/System/PE_low_level_init.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353952" FileType="1048576" />
       <File Name="SDK/platform/devices/MK60D10/include/MK60D10_features.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353808" FileType="1048576" />
       <File Name="SDK/platform/CMSIS/Include/arm_common_tables.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353691" FileType="1048576" />
       <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353126" FileType="1048576" />
       <File Name="SDK/platform/CMSIS/Include/core_cmInstr.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353682" FileType="1048576" />
-      <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2016-12-12, 23:39:14" FileAge="1481582354005" FileType="45637" CompNumb="4" />
+      <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2016-12-12, 23:47:19" FileAge="1481582839439" FileType="45637" CompNumb="4" />
       <File Name="SDK/platform/devices/MK60D10/include/MK60D10_extension.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353796" FileType="1048576" />
       <File Name="SDK/platform/hal/src/uart/fsl_uart_hal.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353831" FileType="1048576" />
-      <File Name="Generated_Code/Cpu.h" FileDate="2016-12-12, 23:39:14" FileAge="1481582354033" FileType="45637" CompNumb="4" />
-      <File Name="Generated_Code/hardware_init.c" FileDate="2016-12-12, 23:39:14" FileAge="1481582354064" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2016-12-12, 23:47:19" FileAge="1481582839363" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/hardware_init.c" FileDate="2016-12-12, 23:47:19" FileAge="1481582839335" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/WAIT1.h" FileDate="2016-12-12, 23:47:19" FileAge="1481582839204" FileType="45637" CompNumb="24" />
       <File Name="SDK/platform/CMSIS/Include/core_cmFunc.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353652" FileType="1048576" />
       <File Name="Generated_Code/clockMan1.h" FileDate="2016-12-12, 23:39:14" FileAge="1481582354168" FileType="45637" CompNumb="5" />
-      <File Name="Generated_Code/Cpu.c" FileDate="2016-12-12, 23:39:14" FileAge="1481582354027" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/gpio1.h" FileDate="2016-12-12, 23:47:19" FileAge="1481582839233" FileType="45637" CompNumb="21" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2016-12-12, 23:47:19" FileAge="1481582839392" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/WAIT1.c" FileDate="2016-12-12, 23:47:19" FileAge="1481582839192" FileType="45637" CompNumb="24" />
       <File Name="Generated_Code/clockMan1.c" FileDate="2016-12-12, 23:39:14" FileAge="1481582354151" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/gpio1.c" FileDate="2016-12-12, 23:47:19" FileAge="1481582839227" FileType="45637" CompNumb="21" />
+      <File Name="SDK/platform/drivers/inc/fsl_gpio_driver.h" FileDate="2016-12-12, 23:47:18" FileAge="1481582838952" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_gpio_hal.h" FileDate="2016-12-12, 23:47:18" FileAge="1481582838883" FileType="1048576" />
       <File Name="SDK/platform/hal/src/osc/fsl_osc_hal.c" FileDate="2016-12-12, 23:39:13" FileAge="1481582353257" FileType="1048576" />
       <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2016-12-12, 23:39:13" FileAge="1481582353982" FileType="45637" CompNumb="4" />
       <File Name="SDK/platform/hal/inc/fsl_mcg_hal_modes.h" FileDate="2016-12-12, 23:39:13" FileAge="1481582353186" FileType="1048576" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>1</CodeGenReference>
+  <CodeGenReference>2</CodeGenReference>
 </CodeGenerationInfo>
