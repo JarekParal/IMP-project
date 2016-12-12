@@ -12,7 +12,7 @@
     </option>
     <option>
       <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
-      <values lines_count="34">
+      <values lines_count="37">
         <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MKL46Z4"</Line>
@@ -29,6 +29,9 @@
         <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
         <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
         <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
@@ -73,7 +76,7 @@
     </option>
     <option>
       <name>PE_G_4PEx_ToolChain_CompilerCpp_SearchUserPaths</name>
-      <values lines_count="34">
+      <values lines_count="37">
         <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MKL46Z4"</Line>
@@ -90,6 +93,9 @@
         <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
         <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
         <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
         <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
@@ -140,11 +146,12 @@
       <File Name="SDK/rtos/FreeRTOS/include/FreeRTOS.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="Generated_Code/croutine.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730105" FileType="45637" CompNumb="18" />
       <File Name="SDK/platform/utilities/inc/fsl_debug_console.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138920" FileType="1048576" CompNumb="1" />
-      <File Name="Sources/main.c" FileDate="2016-12-12, 13:28:50" FileAge="1481545730457" FileType="128" />
+      <File Name="Sources/main.c" FileDate="2016-12-12, 14:00:43" FileAge="1481547643217" FileType="128" />
       <File Name="Generated_Code/croutine.c" FileDate="2016-12-12, 13:28:50" FileAge="1481545730113" FileType="45637" CompNumb="18" />
       <File Name="SDK/platform/CMSIS/Include/arm_const_structs.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138566" FileType="1048576" CompNumb="1" />
       <File Name="Generated_Code/FRTOS1.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730390" FileType="45637" CompNumb="18" />
       <File Name="Generated_Code/FRTOS1.c" FileDate="2016-12-12, 13:28:50" FileAge="1481545730381" FileType="45637" CompNumb="18" />
+      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_driver.c" FileDate="2016-12-12, 13:35:23" FileAge="1481546123212" FileType="1048576" />
       <File Name="SDK/platform/devices/fsl_device_registers.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138689" FileType="1048576" CompNumb="1" />
       <File Name="SDK/platform/hal/src/lpsci/fsl_lpsci_hal.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138772" FileType="1048576" CompNumb="1" />
       <File Name="SDK/platform/system/inc/fsl_interrupt_manager.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138873" FileType="1048576" CompNumb="11" />
@@ -165,10 +172,11 @@
       <File Name="SDK/platform/osa/inc/fsl_os_abstraction_free_rtos.h" FileDate="2016-12-12, 13:28:49" FileAge="1481545729859" FileType="1048576" CompNumb="12" />
       <File Name="Generated_Code/deprecated_definitions.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730253" FileType="45637" CompNumb="18" />
       <File Name="SDK/platform/system/src/interrupt/fsl_interrupt_manager.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138915" FileType="1048576" CompNumb="11" />
+      <File Name="SDK/platform/hal/src/gpio/fsl_gpio_hal.c" FileDate="2016-12-12, 13:35:23" FileAge="1481546123171" FileType="1048576" />
       <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2016-12-12, 13:07:17" FileAge="1481544437468" FileType="45637" CompNumb="1" />
       <File Name="SDK/rtos/FreeRTOS/include/list.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="SDK/platform/hal/inc/fsl_uart_hal.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138761" FileType="1048576" CompNumb="1" />
-      <File Name="ProjectInfo.xml" FileDate="2016-12-12, 13:28:52" FileAge="1481545732096" FileType="45637" />
+      <File Name="ProjectInfo.xml" FileDate="2016-12-12, 13:35:25" FileAge="1481546125478" FileType="45637" />
       <File Name="SDK/platform/utilities/src/print_scan.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138945" FileType="1048576" CompNumb="1" />
       <File Name="Generated_Code/portmacro.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730246" FileType="45637" CompNumb="18" />
       <File Name="SDK/rtos/FreeRTOS/src/list.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
@@ -176,15 +184,17 @@
       <File Name="SDK/platform/hal/src/osc/fsl_osc_hal.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138793" FileType="1048576" CompNumb="5" />
       <File Name="SDK/rtos/FreeRTOS/src/tasks.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="Documentation/doxygen/KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx_project.txt" FileDate="2016-12-12, 13:07:17" FileAge="1481544437426" FileType="45637" CompNumb="1" />
-      <File Name="SDK/platform/hal/inc/fsl_port_hal.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138738" FileType="1048576" CompNumb="8" />
+      <File Name="SDK/platform/hal/inc/fsl_port_hal.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138738" FileType="1048576" CompNumb="0" />
       <File Name="Generated_Code/clockMan1.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138385" FileType="45637" CompNumb="2" />
       <File Name="Generated_Code/StackMacros.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730288" FileType="45637" CompNumb="18" />
       <File Name="Generated_Code/clockMan1.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138377" FileType="45637" CompNumb="2" />
       <File Name="SDK/platform/osa/src/fsl_os_abstraction_bm.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="SDK/platform/devices/startup.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138694" FileType="1048576" CompNumb="1" />
       <File Name="Documentation/doxygen/pex.css" FileDate="2016-12-12, 13:02:18" FileAge="1481544138316" FileType="16384" CompNumb="1" />
+      <File Name="Generated_Code/gpio1.h" FileDate="2016-12-12, 14:00:51" FileAge="1481547651765" FileType="45637" CompNumb="24" />
       <File Name="Generated_Code/portasm.s" FileDate="2016-12-12, 13:28:50" FileAge="1481545730233" FileType="45637" CompNumb="18" />
       <File Name="SDK/platform/devices/startup.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138692" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/gpio1.c" FileDate="2016-12-12, 14:00:51" FileAge="1481547651782" FileType="45637" CompNumb="24" />
       <File Name="SDK/rtos/FreeRTOS/include/event_groups.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="Generated_Code/queue.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730272" FileType="45637" CompNumb="18" />
       <File Name="SDK/rtos/FreeRTOS/src/croutine.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
@@ -193,7 +203,7 @@
       <File Name="Generated_Code/queue.c" FileDate="2016-12-12, 13:28:50" FileAge="1481545730264" FileType="45637" CompNumb="18" />
       <File Name="Generated_Code/UTIL1.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730410" FileType="45637" CompNumb="22" />
       <File Name="SDK/platform/system/src/clock/fsl_clock_manager_common.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138911" FileType="1048576" CompNumb="2" />
-      <File Name="SDK/platform/hal/src/port/fsl_port_hal.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138797" FileType="1048576" CompNumb="8" />
+      <File Name="SDK/platform/hal/src/port/fsl_port_hal.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138797" FileType="1048576" CompNumb="0" />
       <File Name="Generated_Code/FreeRTOSConfig.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730137" FileType="45637" CompNumb="18" />
       <File Name="SDK/rtos/FreeRTOS/include/semphr.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="Generated_Code/UTIL1.c" FileDate="2016-12-12, 13:28:50" FileAge="1481545730403" FileType="45637" CompNumb="22" />
@@ -205,8 +215,8 @@
       <File Name="SDK/platform/devices/MKL46Z4/include/fsl_bitaccess.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138665" FileType="1048576" CompNumb="1" />
       <File Name="Generated_Code/task.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730299" FileType="45637" CompNumb="18" />
       <File Name="Generated_Code/heap_5.c" FileDate="2016-12-12, 13:28:50" FileAge="1481545730184" FileType="45637" CompNumb="18" />
-      <File Name="Sources/Events.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730478" FileType="131328" />
-      <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2016-12-12, 13:07:17" FileAge="1481544437449" FileType="45637" CompNumb="1" />
+      <File Name="Sources/Events.h" FileDate="2016-12-12, 13:35:23" FileAge="1481546123732" FileType="131328" />
+      <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2016-12-12, 14:00:51" FileAge="1481547651820" FileType="45637" CompNumb="1" />
       <File Name="SDK/rtos/FreeRTOS/include/deprecated_definitions.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="SDK/platform/CMSIS/Include/core_cmInstr.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138618" FileType="1048576" CompNumb="1" />
       <File Name="Generated_Code/heap_3.c" FileDate="2016-12-12, 13:28:50" FileAge="1481545730159" FileType="45637" CompNumb="18" />
@@ -221,6 +231,7 @@
       <File Name="Generated_Code/KSDK1.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730429" FileType="45637" CompNumb="20" />
       <File Name="Generated_Code/list.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730202" FileType="45637" CompNumb="18" />
       <File Name="Generated_Code/KSDK1.c" FileDate="2016-12-12, 13:28:50" FileAge="1481545730425" FileType="45637" CompNumb="20" />
+      <File Name="SDK/platform/hal/inc/fsl_gpio_hal.h" FileDate="2016-12-12, 13:35:23" FileAge="1481546123185" FileType="1048576" />
       <File Name="Generated_Code/list.c" FileDate="2016-12-12, 13:28:50" FileAge="1481545730210" FileType="45637" CompNumb="18" />
       <File Name="SDK/platform/system/src/clock/fsl_clock_manager.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138908" FileType="1048576" CompNumb="2" />
       <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138789" FileType="1048576" CompNumb="0" />
@@ -229,34 +240,36 @@
       <File Name="SDK/rtos/FreeRTOS/port/gcc/port.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="Generated_Code/PE_KSDK_Types.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730417" FileType="45637" CompNumb="20" />
       <File Name="SDK/platform/system/inc/fsl_clock_manager.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138871" FileType="1048576" CompNumb="2" />
-      <File Name="Generated_Code/hardware_init.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138401" FileType="45637" CompNumb="7" />
+      <File Name="Generated_Code/hardware_init.c" FileDate="2016-12-12, 14:00:51" FileAge="1481547651747" FileType="45637" CompNumb="7" />
       <File Name="SDK/platform/devices/MKL46Z4/startup/system_MKL46Z4.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138683" FileType="1048576" CompNumb="1" />
       <File Name="Generated_Code/portTicks.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730221" FileType="45637" CompNumb="18" />
       <File Name="SDK/platform/hal/src/sim/MKL46Z4/fsl_sim_hal_MKL46Z4.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138826" FileType="1048576" CompNumb="0" />
       <File Name="SDK/rtos/FreeRTOS/src/heap_5.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="SDK/platform/devices/MKL46Z4/include/MKL46Z4_features.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138663" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_common.c" FileDate="2016-12-12, 13:35:23" FileAge="1481546123191" FileType="1048576" />
       <File Name="SDK/platform/hal/src/sim/MKL46Z4/fsl_sim_hal_MKL46Z4.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138816" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/drivers/inc/fsl_gpio_driver.h" FileDate="2016-12-12, 13:35:23" FileAge="1481546123234" FileType="1048576" />
       <File Name="SDK/rtos/FreeRTOS/src/heap_3.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="Generated_Code/timers.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730337" FileType="45637" CompNumb="18" />
       <File Name="SDK/rtos/FreeRTOS/src/heap_1.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="Generated_Code/timers.c" FileDate="2016-12-12, 13:28:50" FileAge="1481545730349" FileType="45637" CompNumb="18" />
       <File Name="Generated_Code/port.c" FileDate="2016-12-12, 13:28:50" FileAge="1481545730218" FileType="45637" CompNumb="18" />
-      <File Name="Generated_Code/pin_init.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138420" FileType="45637" CompNumb="7" />
-      <File Name="Generated_Code/pin_init.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138412" FileType="45637" CompNumb="7" />
+      <File Name="Generated_Code/pin_init.h" FileDate="2016-12-12, 13:35:23" FileAge="1481546123546" FileType="45637" CompNumb="7" />
+      <File Name="Generated_Code/pin_init.c" FileDate="2016-12-12, 14:00:51" FileAge="1481547651721" FileType="45637" CompNumb="7" />
       <File Name="SDK/platform/hal/inc/fsl_rtc_hal.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138745" FileType="1048576" CompNumb="6" />
       <File Name="SDK/platform/CMSIS/Include/arm_common_tables.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138564" FileType="1048576" CompNumb="1" />
       <File Name="Generated_Code/osa1.h" FileDate="2016-12-12, 13:07:17" FileAge="1481544437381" FileType="45637" CompNumb="12" />
       <File Name="SDK/platform/utilities/inc/fsl_misc_utilities.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138923" FileType="1048576" CompNumb="1" />
       <File Name="Generated_Code/osa1.c" FileDate="2016-12-12, 13:07:17" FileAge="1481544437391" FileType="45637" CompNumb="12" />
-      <File Name="Documentation/KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx_Settings.xml" FileDate="2016-12-12, 13:28:50" FileAge="1481545730806" FileType="3072" />
-      <File Name="Generated_Code/Cpu.h" FileDate="2016-12-12, 13:07:17" FileAge="1481544437413" FileType="45637" CompNumb="1" />
+      <File Name="Documentation/KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx_Settings.xml" FileDate="2016-12-12, 13:35:24" FileAge="1481546124374" FileType="3072" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2016-12-12, 13:35:23" FileAge="1481546123664" FileType="45637" CompNumb="1" />
       <File Name="Generated_Code/semphr.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730281" FileType="45637" CompNumb="18" />
       <File Name="SDK/rtos/FreeRTOS/src/queue.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
-      <File Name="Generated_Code/Cpu.c" FileDate="2016-12-12, 13:28:50" FileAge="1481545730465" FileType="45637" CompNumb="1" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2016-12-12, 13:35:23" FileAge="1481546123675" FileType="45637" CompNumb="1" />
       <File Name="Generated_Code/projdefs.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730256" FileType="45637" CompNumb="18" />
       <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138781" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/hal/src/rtc/fsl_rtc_hal.c" FileDate="2016-12-12, 13:02:18" FileAge="1481544138805" FileType="1048576" CompNumb="6" />
-      <File Name="Documentation/KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx.txt" FileDate="2016-12-12, 13:28:52" FileAge="1481545732174" FileType="3072" />
+      <File Name="Documentation/KDS_FRDM-KL46Z_FreeRTOS_KSDK1.3-PEx.txt" FileDate="2016-12-12, 13:35:25" FileAge="1481546125501" FileType="3072" />
       <File Name="SDK/platform/system/src/clock/MKL46Z4/fsl_clock_MKL46Z4.h" FileDate="2016-12-12, 13:02:18" FileAge="1481544138897" FileType="1048576" CompNumb="2" />
       <File Name="Generated_Code/mpu_wrappers.h" FileDate="2016-12-12, 13:28:50" FileAge="1481545730327" FileType="45637" CompNumb="18" />
       <File Name="SDK/rtos/FreeRTOS/include/portable.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
@@ -266,5 +279,5 @@
       <File Name="SDK/rtos/FreeRTOS/port/gcc/portTicks.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>4</CodeGenReference>
+  <CodeGenReference>6</CodeGenReference>
 </CodeGenerationInfo>

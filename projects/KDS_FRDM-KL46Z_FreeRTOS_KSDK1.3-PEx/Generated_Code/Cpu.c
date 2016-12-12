@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.3.0
 **     Datasheet   : KL46P121M48SF4RM, Rev.2, Dec 2012
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-12, 13:28, # CodeGen: 3
+**     Date/Time   : 2016-12-12, 13:35, # CodeGen: 4
 **     Abstract    :
 **
 **     Settings    :
@@ -115,6 +115,10 @@ void Components_Init(void)
   SIM_PDD_SetClockGate(SIM_BASE_PTR, SIM_PDD_CLOCK_GATE_LPTMR0, PDD_ENABLE);
 #endif
   vPortStopTickTimer(); /* tick timer shall not run until the RTOS scheduler is started */
+  /*! gpio1 Auto initialization start */
+  GPIO_DRV_Init(NULL,gpio1_OutConfig0);
+  /*! gpio1 Auto initialization end */
+  
 }
 #endif /* CPU_COMPONENTS_INIT */
 

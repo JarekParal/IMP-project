@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : KSDK 1.3.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-12, 12:21, # CodeGen: 0
+**     Date/Time   : 2016-12-12, 14:00, # CodeGen: 5
 **     Abstract    :
 **
 **     Settings    :
@@ -1432,6 +1432,48 @@ void deinit_coredebug_pins(uint32_t instance)
 {
   PORT_HAL_SetMuxMode(PORTA,0UL,kPortPinDisabled);
   PORT_HAL_SetMuxMode(PORTA,3UL,kPortPinDisabled);
+}
+/*FUNCTION**********************************************************************
+*
+* Function Name : init_gpio_pins
+* Description   : GPIO method sets registers according routing settings.
+* Call this method code to route desired pins.
+*END**************************************************************************/
+void init_gpio_pins(uint32_t instance)
+{
+  switch(instance) {    
+    case GPIOD_IDX:                     /* GPIOD_IDX */
+      /* Affects PORTD_PCR5 register */
+      PORT_HAL_SetMuxMode(PORTD,5UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTD,5UL,kPortSlowSlewRate);
+      break;
+    case GPIOE_IDX:                     /* GPIOE_IDX */
+      /* Affects PORTE_PCR29 register */
+      PORT_HAL_SetMuxMode(PORTE,29UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTE,29UL,kPortSlowSlewRate);
+      break;
+    default:
+      break;
+  }
+}
+/*FUNCTION**********************************************************************
+*
+* Function Name : deinit_gpio_pins
+* Description   : GPIO method sets registers according routing settings.
+* Call this method code to disable routing of desired pins.
+*END**************************************************************************/
+void deinit_gpio_pins(uint32_t instance)
+{
+  switch(instance) {    
+    case GPIOD_IDX:                     /* GPIOD_IDX */
+      PORT_HAL_SetMuxMode(PORTD,5UL,kPortPinDisabled);
+      break;
+    case GPIOE_IDX:                     /* GPIOE_IDX */
+      PORT_HAL_SetMuxMode(PORTE,29UL,kPortPinDisabled);
+      break;
+    default:
+      break;
+  }
 }
 
 /*FUNCTION**********************************************************************
