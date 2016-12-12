@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.3.0
 **     Datasheet   : K60P144M100SF2V2RM Rev. 2, Jun 2012
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-12, 23:47, # CodeGen: 1
+**     Date/Time   : 2016-12-12, 23:58, # CodeGen: 2
 **     Abstract    :
 **
 **     Settings    :
@@ -113,6 +113,12 @@ void Components_Init(void)
   
   /* ### KinetisSDK "KSDK1" init code ... */
   /* Write code here ... */
+  /* ### FreeRTOS "FRTOS1" init code ... */
+#if configSYSTICK_USE_LOW_POWER_TIMER
+  /* enable clocking for low power timer, otherwise vPortStopTickTimer() will crash */
+  SIM_PDD_SetClockGate(SIM_BASE_PTR, SIM_PDD_CLOCK_GATE_LPTMR0, PDD_ENABLE);
+#endif
+  vPortStopTickTimer(); /* tick timer shall not run until the RTOS scheduler is started */
 }
 #endif /* CPU_COMPONENTS_INIT */
 

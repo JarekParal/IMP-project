@@ -7,7 +7,7 @@
 **     Version     : Component 01.069, Driver 01.00, CPU db: 3.00.000
 **     Repository  : McuOnEclipse
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-12, 23:47, # CodeGen: 1
+**     Date/Time   : 2016-12-12, 23:58, # CodeGen: 2
 **     Abstract    :
 **          Implements busy waiting routines.
 **     Settings    :
@@ -58,6 +58,9 @@
 #if KSDK1_SDK_VERSION_USED == KSDK1_SDK_VERSION_NONE
   #include "Cpu.h"
 #endif
+/* include RTOS header files */
+#include "FreeRTOS.h" /* for vTaskDelay() */
+#include "task.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -179,7 +182,7 @@ void WAIT1_Waitms(uint16_t ms);
 */
 
 #define WAIT1_WaitOSms(ms) \
-  WAIT1_Waitms(ms) /* no RTOS used, so use normal wait */
+  vTaskDelay(ms/portTICK_PERIOD_MS)
 /*
 ** ===================================================================
 **     Method      :  WAIT1_WaitOSms (component Wait)

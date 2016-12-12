@@ -36,6 +36,8 @@
 #include "gpio1.h"
 #include "WAIT1.h"
 #include "KSDK1.h"
+#include "FRTOS1.h"
+#include "UTIL1.h"
 #if CPU_INIT_CONFIG
   #include "Init_Config.h"
 #endif
