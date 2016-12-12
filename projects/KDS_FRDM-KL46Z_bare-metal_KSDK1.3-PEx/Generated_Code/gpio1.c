@@ -7,7 +7,7 @@
 **     Version     : Component 1.3.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.3.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-11, 23:05, # CodeGen: 7
+**     Date/Time   : 2016-12-12, 09:29, # CodeGen: 9
 **
 **     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
@@ -71,12 +71,6 @@ const gpio_input_pin_user_config_t gpio1_InpConfig0[] = {
 const gpio_output_pin_user_config_t gpio1_OutConfig0[] = {
   {
     .pinName = LED2_RED,
-    .config.outputLogic = 0,
-    .config.slewRate = kPortSlowSlewRate,
-    .config.driveStrength = kPortLowDriveStrength,
-  },
-  {
-    .pinName = LED1_GREEN,
     .config.outputLogic = 0,
     .config.slewRate = kPortSlowSlewRate,
     .config.driveStrength = kPortLowDriveStrength,

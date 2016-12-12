@@ -177,6 +177,14 @@ Module "pin_init"  (component PinSettings)
    - pin_init_deinit_rcm_pins -RCM method de-configures registers according to settings of routing. This method is enabled only 
                 if any pin of corresponding peripheral type is selected. Selected pins are either user selected pins or pins 
                 selected in pin items in components. Call this method code to un-route desired pins into RCM peripheral.
+   - pin_init_init_tpm_pins -TPM method configures registers according to settings  of routing and electrical features. This 
+                method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either user 
+                selected pins or pins selected in pin items in components. Call this method code to route desired pins into 
+                TPM0, TPM1, TPM2 peripherals.
+   - pin_init_deinit_tpm_pins -TPM method de-configures registers according to settings of routing. This method is enabled only 
+                if any pin of corresponding peripheral type is selected. Selected pins are either user selected pins or pins 
+                selected in pin items in components. Call this method code to un-route desired pins into TPM0, TPM1, TPM2 
+                peripherals.
 
 Module "intMan1"   (component fsl_interrupt_manager)
    - intMan1_INT_SYS_InstallHandler -Installs an interrupt handler routine for a given IRQ number.
@@ -249,6 +257,23 @@ Module "WAIT1"     (component Wait)
                 busy/blocking wait.
 
 Module "KSDK1"     (component KinetisSDK)
+
+Module "tpmTmr1"   (component fsl_tpm)
+   - tpmTmr1_TPM_DRV_Init -Initializes the TPM driver.
+   - tpmTmr1_TPM_DRV_PwmStop -Stops the channel PWM.
+   - tpmTmr1_TPM_DRV_PwmStart -Configures the duty cycle and frequency and starts outputting PWM on a specified channel.
+   - tpmTmr1_TPM_DRV_SetTimeOverflowIntCmd -Enables or disables the timer overflow interrupt.
+   - tpmTmr1_TPM_DRV_SetChnIntCmd -Enables or disables the channel interrupt.
+   - tpmTmr1_TPM_DRV_SetClock -Sets the TPM clock source.
+   - tpmTmr1_TPM_DRV_GetClock -Gets the TPM clock frequency.
+   - tpmTmr1_TPM_DRV_CounterStart -Starts the TPM counter.
+   - tpmTmr1_TPM_DRV_CounterStop -Stops the TPM counter.
+   - tpmTmr1_TPM_DRV_CounterRead -Reads back the current value of the TPM counter.
+   - tpmTmr1_TPM_DRV_InputCaptureEnable -TPM input capture mode setup.
+   - tpmTmr1_TPM_DRV_GetChnVal -Reads back the current value of the TPM channel value.
+   - tpmTmr1_TPM_DRV_OutputCompareEnable -TPM output compare mode setup.
+   - tpmTmr1_TPM_DRV_Deinit -Shuts down the TPM driver.
+   - tpmTmr1_TPM_DRV_IRQHandler -Action to take when an TPM interrupt is triggered.
 
 Module "Cpu"       (component MKL46Z256LL4_4SDK)
    - Cpu_SystemInit -This method configures the oscillator (PLL) that is part of the microcontroller device. SystemInit is 

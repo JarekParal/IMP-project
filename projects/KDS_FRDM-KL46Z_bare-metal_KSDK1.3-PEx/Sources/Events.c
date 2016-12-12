@@ -57,6 +57,33 @@ void PORTC_PORTD_IRQHandler(void)
   /* Write your code here ... */
 }
 
+#ifdef tpmTmr1_IDX
+/*
+** ===================================================================
+**     Interrupt handler : TPM0_IRQHandler
+**
+**     Description :
+**         User interrupt service routine. 
+**     Parameters  : None
+**     Returns     : Nothing
+** ===================================================================
+*/
+void TPM0_IRQHandler(void)
+{
+  TPM_DRV_IRQHandler(tpmTmr1_IDX);
+  /* Write your code here ... */
+}
+#else
+  /* This IRQ handler is not used by tpmTmr1 component. The purpose may be
+   * that the component has been removed or disabled. It is recommended to 
+   * remove this handler because Processor Expert cannot modify it according to 
+   * possible new request (e.g. in case that another component uses this
+   * interrupt vector). */
+  #warning This IRQ handler is not used by tpmTmr1 component.\
+           It is recommended to remove this because Processor Expert cannot\
+           modify it according to possible new request.
+#endif
+
 /* END Events */
 
 #ifdef __cplusplus

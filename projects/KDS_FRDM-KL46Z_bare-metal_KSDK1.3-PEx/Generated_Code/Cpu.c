@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.3.0
 **     Datasheet   : KL46P121M48SF4RM, Rev.2, Dec 2012
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-11, 13:04, # CodeGen: 4
+**     Date/Time   : 2016-12-12, 09:29, # CodeGen: 9
 **     Abstract    :
 **
 **     Settings    :
@@ -113,6 +113,12 @@ void Components_Init(void)
   
   /* ### KinetisSDK "KSDK1" init code ... */
   /* Write code here ... */
+  /*! tpmTmr1 Auto initialization start */
+  TPM_DRV_Init(tpmTmr1_IDX, &tpmTmr1_InitConfig0);
+  TPM_DRV_SetClock(tpmTmr1_IDX, kTpmClockSourceModuleClk, kTpmDividedBy128);
+  TPM_DRV_PwmStart(tpmTmr1_IDX, &tpmTmr1_ChnConfig0, 5U);
+  /*! tpmTmr1 Auto initialization end */
+  
 }
 #endif /* CPU_COMPONENTS_INIT */
 

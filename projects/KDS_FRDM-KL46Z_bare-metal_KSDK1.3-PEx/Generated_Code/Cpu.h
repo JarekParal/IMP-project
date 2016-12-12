@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.3.0
 **     Datasheet   : KL46P121M48SF4RM, Rev.2, Dec 2012
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-11, 12:00, # CodeGen: 1
+**     Date/Time   : 2016-12-12, 09:29, # CodeGen: 9
 **     Abstract    :
 **
 **     Settings    :
@@ -80,6 +80,8 @@
 #include "osa1.h"
 #include "fsl_gpio_hal.h"
 #include "fsl_gpio_driver.h"
+#include "fsl_tpm_hal.h"
+#include "fsl_tpm_driver.h"
 #include <assert.h>
 
 #ifdef __cplusplus
