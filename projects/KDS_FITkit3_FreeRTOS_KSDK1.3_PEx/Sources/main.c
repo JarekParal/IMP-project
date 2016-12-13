@@ -30,9 +30,12 @@
 /* Including needed modules to compile this module/procedure */
 #include "Cpu.h"
 #include "Events.h"
+#include "rtos_main_task.h"
 #include "clockMan1.h"
 #include "pin_mux.h"
 #include "osa1.h"
+#include "free_rtos.h"
+#include "MainTask.h"
 #include "gpio1.h"
 #include "WAIT1.h"
 #include "KSDK1.h"

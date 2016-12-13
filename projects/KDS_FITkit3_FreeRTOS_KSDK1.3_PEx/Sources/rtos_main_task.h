@@ -1,34 +1,34 @@
 /* ###################################################################
-**     Filename    : Events.h
+**     Filename    : rtos_main_task.h
 **     Project     : KDS_FITkit3_FreeRTOS_KSDK1.3_PEx
 **     Processor   : MK60DN512VLQ10
 **     Component   : Events
 **     Version     : Driver 01.00
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-13, 03:20, # CodeGen: 0
+**     Date/Time   : 2016-12-13, 03:43, # CodeGen: 2
 **     Abstract    :
 **         This is user's event module.
 **         Put your event handler code here.
 **     Settings    :
 **     Contents    :
-**         No public methods
+**         main_task - void main_task(os_task_param_t task_init_data);
 **
 ** ###################################################################*/
 /*!
-** @file Events.h
+** @file rtos_main_task.h
 ** @version 01.00
 ** @brief
 **         This is user's event module.
 **         Put your event handler code here.
 */         
 /*!
-**  @addtogroup Events_module Events module documentation
+**  @addtogroup rtos_main_task_module rtos_main_task module documentation
 **  @{
 */         
 
-#ifndef __Events_H
-#define __Events_H
-/* MODULE Events */
+#ifndef __rtos_main_task_H
+#define __rtos_main_task_H
+/* MODULE rtos_main_task */
 
 #include "fsl_device_registers.h"
 #include "clockMan1.h"
@@ -44,15 +44,26 @@
 extern "C" {
 #endif 
 
+/*
+** ===================================================================
+**     Callback    : main_task
+**     Description : Task function entry.
+**     Parameters  :
+**       task_init_data - OS task parameter
+**     Returns : Nothing
+** ===================================================================
+*/
+void main_task(os_task_param_t task_init_data);
 
-/* END Events */
+
+/* END rtos_main_task */
 
 #ifdef __cplusplus
 }  /* extern "C" */
 #endif 
 
 #endif 
-/* ifndef __Events_H*/
+/* ifndef __rtos_main_task_H*/
 /*!
 ** @}
 */

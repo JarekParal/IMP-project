@@ -212,8 +212,6 @@ Module "pin_mux"   (component PinSettings)
                 pins selected in pin items in components. Call this method code to un-route desired pins into JTAG peripheral.
 
 Module "osa1"      (component fsl_os_abstraction)
-   - osa1_OSA_PollAllOtherTasks -Calls all task functions one time except for the current task.
-   - osa1_DefaultISR -The default interrupt handler installed in vector table.
    - osa1_OSA_SemaCreate -Creates a semaphore with a given value.
    - osa1_OSA_SemaWait -Pending a semaphore with timeout.
    - osa1_OSA_SemaPost -Signals for someone waiting on the semaphore to wake up.
