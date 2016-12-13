@@ -192,9 +192,6 @@ static void btn_task(void *pvParameters) {
 	} else {
 		BTN2_LAST = GPIO_ReadPinInput(MCU_BUTTON2_GPIO, MCU_BUTTON2_GPIO_PIN);
 	}
-//
-//	if(GPIO_ReadPinInput(MCU_BUTTON2_GPIO, MCU_BUTTON2_GPIO_PIN) == 0)
-//		MCU_LED3_TOGGLE();
 
 	MCU_LED1_OFF();
 	MCU_LED2_OFF();
@@ -216,16 +213,7 @@ static void btn_task(void *pvParameters) {
 
 static void led_task(void *pvParameters) {
   for (;;) {
-	/*PRINTF("Hello world.\r\n");*/
-	/* Add your code here */
-	  //vTaskSuspend(NULL);
-	  //vTaskSuspend(500/portTICK_RATE_MS);
 	  MCU_LED0_TOGGLE();
-
-//	  if(GPIO_ReadPinInput(MCU_BUTTON0_GPIO, MCU_BUTTON0_GPIO_PIN) == 0)
-//		  MCU_LED1_ON();
-//	  else
-//		  MCU_LED1_OFF();
 
 	  vTaskDelay(led_period/portTICK_RATE_MS);
   }
@@ -265,42 +253,19 @@ int main(void) {
 	PORT_SetPinMux(MCU_BUTTON2_PORT, MCU_BUTTON2_GPIO_PIN, kPORT_MuxAsGpio);
 	PORT_SetPinMux(MCU_BUTTON3_PORT, MCU_BUTTON3_GPIO_PIN, kPORT_MuxAsGpio);
 
-
 	GPIO_PinInit(MCU_BUTTON0_GPIO, MCU_BUTTON0_GPIO_PIN, &BTN_configInput);
 	GPIO_PinInit(MCU_BUTTON1_GPIO, MCU_BUTTON1_GPIO_PIN, &BTN_configInput);
 	GPIO_PinInit(MCU_BUTTON2_GPIO, MCU_BUTTON2_GPIO_PIN, &BTN_configInput);
 	GPIO_PinInit(MCU_BUTTON3_GPIO, MCU_BUTTON3_GPIO_PIN, &BTN_configInput);
 
-//  /* Add your code here */
-//  for(;;) {
-//	GPIO_ClearPinsOutput(GPIOB, 1<<5u); /* blue led on */
-//	//GPIO_TogglePinsOutput(GPIOB, 1<<5u); /* blue led on */
-//	delay(1000000);
-//    GPIO_SetPinsOutput(GPIOB, 1<<5u); /* blue led off */
-//    delay(1000000);
-//
-//    GPIO_ClearPinsOutput(GPIOB, 1<<4u); /* red led on */
-//    delay(1000000);
-//    GPIO_SetPinsOutput(GPIOB, 1<<4u); /* red led off */
-//    delay(1000000);
-//
-//    GPIO_ClearPinsOutput(GPIOB, 1<<3u); /* green led on */
-//    delay(1000000);
-//    GPIO_SetPinsOutput(GPIOB, 1<<3u); /* green led off */
-//    delay(1000000);
-//  }
-//  for(;;) { /* Infinite loop to avoid leaving the main function */
-//    __asm("NOP"); /* something to use as a breakpoint stop while looping */
-//  }
+	/* Create RTOS task */
+	xTaskCreate(led_task, "led_task", configMINIMAL_STACK_SIZE, NULL, led_task_PRIORITY, NULL);
+	xTaskCreate(btn_task, "btn_task", configMINIMAL_STACK_SIZE, NULL, btn_task_PRIORITY, NULL);
+	vTaskStartScheduler();
 
-  /* Create RTOS task */
-  xTaskCreate(led_task, "led_task", configMINIMAL_STACK_SIZE, NULL, led_task_PRIORITY, NULL);
-  xTaskCreate(btn_task, "btn_task", configMINIMAL_STACK_SIZE, NULL, btn_task_PRIORITY, NULL);
-  vTaskStartScheduler();
-
-  for(;;) { /* Infinite loop to avoid leaving the main function */
-    __asm("NOP"); /* something to use as a breakpoint stop while looping */
-  }
+	for(;;) { /* Infinite loop to avoid leaving the main function */
+		__asm("NOP"); /* something to use as a breakpoint stop while looping */
+	}
 }
 
 

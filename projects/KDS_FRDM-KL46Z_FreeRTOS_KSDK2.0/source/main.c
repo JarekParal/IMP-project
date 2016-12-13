@@ -45,6 +45,12 @@
 #include "queue.h"
 #include "timers.h"
 
+static void delay(volatile uint32_t nof) {
+  while(nof!=0) {
+    __asm("NOP");
+    nof--;
+  }
+}
 
 /* Task priorities. */
 #define hello_task_PRIORITY (configMAX_PRIORITIES - 1)
@@ -71,6 +77,11 @@ int main(void) {
   BOARD_InitDebugConsole();
 
   /* Add your code here */
+  for(;;) {
+	GPIO_TogglePinsOutput(GPIOD, 1<<5u); /* green led on */
+//	GPIO_TogglePinsOutput(GPIOE, 1<<29u); /* red led on */
+	delay(1000000);
+  }
 
   /* Create RTOS task */
   xTaskCreate(hello_task, "Hello_task", configMINIMAL_STACK_SIZE, NULL, hello_task_PRIORITY, NULL);

@@ -24417,7 +24417,7 @@
     </Events>
   </Bean>
   <Bean>
-    <Repository>file:/C:\Freescale\McuOnEclipse</Repository>
+    <Repository>file:/C:\Freescale\MCUonEclipse_2016-10-30</Repository>
     <BeanType>Wait</BeanType>
     <Name>WAIT1</Name>
     <CompNumb>17</CompNumb>
@@ -24616,7 +24616,7 @@
     <Events />
   </Bean>
   <Bean>
-    <Repository>file:/C:\Freescale\McuOnEclipse</Repository>
+    <Repository>file:/C:\Freescale\MCUonEclipse_2016-10-30</Repository>
     <BeanType>KinetisSDK</BeanType>
     <Name>KSDK1</Name>
     <CompNumb>18</CompNumb>

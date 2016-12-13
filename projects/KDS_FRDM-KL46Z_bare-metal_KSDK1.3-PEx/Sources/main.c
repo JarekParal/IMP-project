@@ -60,7 +60,6 @@ int main(void)
   GPIO_DRV_WritePinOutput(LED2_RED, 0);
 
   //BUTTON_SW1 - activate Pull Up (button is connect to GND), include capacitor (no problem with oscillation)
-
   WAIT1_Waitms(1000);
   for(;;)
   {

@@ -47,27 +47,4 @@ static const gpio_pin_config_t LED_configOutput = {
  */
 void BOARD_InitPins(void)
 {
-//    /* Initialize LPUART0 pins below */
-//    /* Ungate the port clock */
-//    CLOCK_EnableClock(kCLOCK_PortA);
-//    /* Affects PORTA_PCR1 register */
-//    PORT_SetPinMux(PORTA, 1u, kPORT_MuxAlt2);
-//    /* Affects PORTA_PCR2 register */
-//    PORT_SetPinMux(PORTA, 2u, kPORT_MuxAlt2);
-//
-//    CLOCK_EnableClock(kCLOCK_PortB);
-//	/* Affects PORTB_PCR1 register */
-//	PORT_SetPinMux(PORTB, 1u, kPORT_MuxAlt2);
-//	/* Affects PORTB_PCR2 register */
-//	PORT_SetPinMux(PORTB, 2u, kPORT_MuxAlt2);
-//
-//    /* additional clock and configuration for RGB LEDs (PTA13, PTB18 and PTB19) */
-//    //CLOCK_EnableClock(kCLOCK_PortB); /* enable clocks for port B */
-//    PORT_SetPinMux(PORTB, 5u, kPORT_MuxAsGpio); /* blue led, PTA13 */
-//    PORT_SetPinMux(PORTB, 4u, kPORT_MuxAsGpio); /* red led, PTB18 */
-//    PORT_SetPinMux(PORTB, 3u, kPORT_MuxAsGpio); /* green led, PTB19 */
-//
-//    GPIO_PinInit(GPIOB, 5u, &LED_configOutput); /* mux PTA13 as output */
-//    GPIO_PinInit(GPIOB, 4u, &LED_configOutput); /* mux PTB18 as output */
-//    GPIO_PinInit(GPIOB, 3u, &LED_configOutput); /* mux PTB19 as output */
 }
