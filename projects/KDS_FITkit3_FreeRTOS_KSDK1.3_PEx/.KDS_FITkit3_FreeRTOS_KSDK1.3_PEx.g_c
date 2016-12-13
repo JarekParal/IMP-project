@@ -819,35 +819,8 @@
     </GenFiles>
     <SignalListFile />
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>5</ProjectModificationStamp>
+    <ProjectModificationStamp>6</ProjectModificationStamp>
   </Options>
-  <CpuID_2>
-    <Generated>false</Generated>
-    <GenCompName />
-    <GenComponentVersion>??.???</GenComponentVersion>
-    <GenDriverVersion>??.??</GenDriverVersion>
-    <GenEventModule />
-    <HeaderAge>-1</HeaderAge>
-    <CodeAge>-1</CodeAge>
-    <AsemblAge>-1</AsemblAge>
-    <GenNumMethods>2</GenNumMethods>
-    <SystemInit>false</SystemInit>
-    <SystemCoreClockUpdate>false</SystemCoreClockUpdate>
-    <GenNumEvents>1</GenNumEvents>
-    <OnEvent_Selected>1</OnEvent_Selected>
-    <OnEvent_Name>Cpu_OnEvent</OnEvent_Name>
-    <OnEvent_Priority>interrupts disabled</OnEvent_Priority>
-    <ISR_ISRDefaultName />
-    <ISR_ISRnameINITPC />
-    <ISR_IntLossOfLockISRHandle />
-    <ISR_ISRnameLossOfLock />
-    <ISR_IntICSLossOfLockISRHandle />
-    <ISR_ISRnameICSLossOfLock />
-    <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
-    <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
-    <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
-    <GenExtraFilesCount>0</GenExtraFilesCount>
-  </CpuID_2>
   <CpuID_4>
     <Generated>true</Generated>
     <GenCompName>Cpu</GenCompName>

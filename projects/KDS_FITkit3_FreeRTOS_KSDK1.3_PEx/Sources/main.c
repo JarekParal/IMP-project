@@ -44,6 +44,24 @@
 #endif
 /* User includes (#include below this line is not maintained by Processor Expert) */
 
+
+/* Task priorities. */
+#define hello_task_PRIORITY (configMAX_PRIORITIES - 1)
+
+/*!
+ * @brief Task responsible for printing of "Hello world." message.
+ */
+static void hello_task(void *pvParameters) {
+  for (;;) {
+	/*PRINTF("Hello world.\r\n");*/
+	/* Add your code here */
+    //vTaskSuspend(NULL);
+	vTaskDelay(500/portTICK_RATE_MS);
+	GPIO_DRV_TogglePinOutput(MCU_LED3);
+  }
+}
+
+
 /*lint -save  -e970 Disable MISRA rule (6.3) checking. */
 int main(void)
 /*lint -restore Enable MISRA rule (6.3) checking. */
@@ -62,11 +80,16 @@ int main(void)
   GPIO_DRV_WritePinOutput(MCU_LED0, 0);
   GPIO_DRV_WritePinOutput(MCU_LED3, 1);
 
+  // Test - xTaskCreate from KSDK2.0 - don't work
+  xTaskCreate(hello_task, "Hello_task", configMINIMAL_STACK_SIZE, NULL, hello_task_PRIORITY, NULL);
+  vTaskStartScheduler();
+
+
   for(;;) {
   	  //GPIO_DRV_TogglePinOutput(MCU_LED0);
   	  GPIO_DRV_TogglePinOutput(MCU_LED1);
   	  WAIT1_Waitms(500);
-    }
+  }
 
 
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/

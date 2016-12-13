@@ -186,7 +186,7 @@
       <File Name="Generated_Code/gpio1.c" FileDate="2016-12-13, 03:39:16" FileAge="1481596756573" FileType="45637" CompNumb="18" />
       <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2016-12-13, 03:20:50" FileAge="1481595650813" FileType="45637" CompNumb="4" />
       <File Name="SDK/rtos/FreeRTOS/include/event_groups.h" FileDate="2016-12-13, 03:44:00" FileAge="1481597040408" FileType="1048576" />
-      <File Name="Documentation/KDS_FITkit3_FreeRTOS_KSDK1.3_PEx_Settings.xml" FileDate="2016-12-13, 03:39:17" FileAge="1481596757334" FileType="3072" />
+      <File Name="Documentation/KDS_FITkit3_FreeRTOS_KSDK1.3_PEx_Settings.xml" FileDate="2016-12-13, 03:54:13" FileAge="1481597653350" FileType="3072" />
       <File Name="Generated_Code/free_rtos.h" FileDate="2016-12-13, 03:44:01" FileAge="1481597041220" FileType="45637" CompNumb="25" />
       <File Name="Generated_Code/PE_KSDK_Types.h" FileDate="2016-12-13, 03:39:16" FileAge="1481596756554" FileType="45637" CompNumb="24" />
       <File Name="SDK/platform/devices/MK60D10/include/fsl_bitaccess.h" FileDate="2016-12-13, 03:20:50" FileAge="1481595650553" FileType="1048576" CompNumb="4" />
@@ -230,7 +230,7 @@
       <File Name="SDK/platform/hal/inc/fsl_port_hal.h" FileDate="2016-12-13, 03:20:50" FileAge="1481595650294" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/hal/inc/fsl_uart_hal.h" FileDate="2016-12-13, 03:20:50" FileAge="1481595650675" FileType="1048576" CompNumb="4" />
       <File Name="SDK/platform/hal/src/sim/MK60D10/fsl_sim_hal_MK60D10.c" FileDate="2016-12-13, 03:20:50" FileAge="1481595650047" FileType="1048576" CompNumb="0" />
-      <File Name="Sources/main.c" FileDate="2016-12-13, 03:44:01" FileAge="1481597041286" FileType="128" />
+      <File Name="Sources/main.c" FileDate="2016-12-13, 03:53:50" FileAge="1481597630843" FileType="128" />
       <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal.c" FileDate="2016-12-13, 03:20:49" FileAge="1481595649935" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/hal/src/osc/fsl_osc_hal.c" FileDate="2016-12-13, 03:20:50" FileAge="1481595650079" FileType="1048576" CompNumb="8" />
       <File Name="SDK/platform/hal/src/uart/fsl_uart_hal.c" FileDate="2016-12-13, 03:20:50" FileAge="1481595650655" FileType="1048576" CompNumb="4" />
@@ -260,5 +260,5 @@
       <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_driver.c" FileDate="2016-12-13, 03:39:16" FileAge="1481596756226" FileType="1048576" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>3</CodeGenReference>
+  <CodeGenReference>4</CodeGenReference>
 </CodeGenerationInfo>
