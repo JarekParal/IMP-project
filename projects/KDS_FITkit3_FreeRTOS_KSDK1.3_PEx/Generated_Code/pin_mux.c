@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : KSDK 1.3.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-13, 03:20, # CodeGen: 0
+**     Date/Time   : 2016-12-13, 03:39, # CodeGen: 1
 **     Abstract    :
 **
 **     Settings    :
@@ -1918,6 +1918,94 @@
 #include "pin_mux.h"
 
 
+/*FUNCTION**********************************************************************
+*
+* Function Name : init_gpio_pins
+* Description   : GPIO method sets registers according routing settings.
+* Call this method code to route desired pins.
+*END**************************************************************************/
+void init_gpio_pins(uint32_t instance)
+{
+  switch(instance) {    
+    case GPIOB_IDX:                     /* GPIOB_IDX */
+      /* Affects PORTB_PCR2 register */
+      PORT_HAL_SetDriveStrengthMode(PORTB,2UL,kPortLowDriveStrength);  
+      PORT_HAL_SetMuxMode(PORTB,2UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTB,2UL,kPortSlowSlewRate);
+      PORT_HAL_SetOpenDrainCmd(PORTB,2UL,true);
+      /* Affects PORTB_PCR3 register */
+      PORT_HAL_SetDriveStrengthMode(PORTB,3UL,kPortLowDriveStrength);  
+      PORT_HAL_SetMuxMode(PORTB,3UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTB,3UL,kPortSlowSlewRate);
+      PORT_HAL_SetOpenDrainCmd(PORTB,3UL,true);
+      /* Affects PORTB_PCR4 register */
+      PORT_HAL_SetDriveStrengthMode(PORTB,4UL,kPortLowDriveStrength);  
+      PORT_HAL_SetMuxMode(PORTB,4UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTB,4UL,kPortSlowSlewRate);
+      PORT_HAL_SetOpenDrainCmd(PORTB,4UL,true);
+      /* Affects PORTB_PCR5 register */
+      PORT_HAL_SetDriveStrengthMode(PORTB,5UL,kPortLowDriveStrength);  
+      PORT_HAL_SetMuxMode(PORTB,5UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTB,5UL,kPortSlowSlewRate);
+      PORT_HAL_SetOpenDrainCmd(PORTB,5UL,true);
+      break;
+    case GPIOE_IDX:                     /* GPIOE_IDX */
+      /* Affects PORTE_PCR10 register */
+      PORT_HAL_SetPullMode(PORTE,10UL,kPortPullDown);
+      PORT_HAL_SetMuxMode(PORTE,10UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullCmd(PORTE,10UL,true);
+      PORT_HAL_SetPassiveFilterCmd(PORTE,10UL,true);
+      /* Affects PORTE_PCR11 register */
+      PORT_HAL_SetPullMode(PORTE,11UL,kPortPullDown);
+      PORT_HAL_SetMuxMode(PORTE,11UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullCmd(PORTE,11UL,true);
+      PORT_HAL_SetPassiveFilterCmd(PORTE,11UL,true);
+      /* Affects PORTE_PCR12 register */
+      PORT_HAL_SetPullMode(PORTE,12UL,kPortPullDown);
+      PORT_HAL_SetMuxMode(PORTE,12UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullCmd(PORTE,12UL,true);
+      PORT_HAL_SetPassiveFilterCmd(PORTE,12UL,true);
+      /* Affects PORTE_PCR26 register */
+      PORT_HAL_SetPullMode(PORTE,26UL,kPortPullDown);
+      PORT_HAL_SetMuxMode(PORTE,26UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullCmd(PORTE,26UL,true);
+      PORT_HAL_SetPassiveFilterCmd(PORTE,26UL,true);
+      /* Affects PORTE_PCR27 register */
+      PORT_HAL_SetPullMode(PORTE,27UL,kPortPullDown);
+      PORT_HAL_SetMuxMode(PORTE,27UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullCmd(PORTE,27UL,true);
+      PORT_HAL_SetPassiveFilterCmd(PORTE,27UL,true);
+      break;
+    default:
+      break;
+  }
+}
+/*FUNCTION**********************************************************************
+*
+* Function Name : deinit_gpio_pins
+* Description   : GPIO method sets registers according routing settings.
+* Call this method code to disable routing of desired pins.
+*END**************************************************************************/
+void deinit_gpio_pins(uint32_t instance)
+{
+  switch(instance) {    
+    case GPIOB_IDX:                     /* GPIOB_IDX */
+      PORT_HAL_SetMuxMode(PORTB,2UL,kPortPinDisabled);
+      PORT_HAL_SetMuxMode(PORTB,3UL,kPortPinDisabled);
+      PORT_HAL_SetMuxMode(PORTB,4UL,kPortPinDisabled);
+      PORT_HAL_SetMuxMode(PORTB,5UL,kPortPinDisabled);
+      break;
+    case GPIOE_IDX:                     /* GPIOE_IDX */
+      PORT_HAL_SetMuxMode(PORTE,10UL,kPortPinDisabled);
+      PORT_HAL_SetMuxMode(PORTE,11UL,kPortPinDisabled);
+      PORT_HAL_SetMuxMode(PORTE,12UL,kPortPinDisabled);
+      PORT_HAL_SetMuxMode(PORTE,26UL,kPortPinDisabled);
+      PORT_HAL_SetMuxMode(PORTE,27UL,kPortPinDisabled);
+      break;
+    default:
+      break;
+  }
+}
 
 /*FUNCTION**********************************************************************
 *

@@ -33,6 +33,9 @@
 #include "clockMan1.h"
 #include "pin_mux.h"
 #include "osa1.h"
+#include "gpio1.h"
+#include "WAIT1.h"
+#include "KSDK1.h"
 #if CPU_INIT_CONFIG
   #include "Init_Config.h"
 #endif
@@ -50,6 +53,18 @@ int main(void)
 
   /* Write your code here */
   /* For example: for(;;) { } */
+
+  GPIO_DRV_WritePinOutput(MCU_LED1, 1);
+  GPIO_DRV_WritePinOutput(MCU_LED2, 0);
+  GPIO_DRV_WritePinOutput(MCU_LED0, 0);
+  GPIO_DRV_WritePinOutput(MCU_LED3, 1);
+
+  for(;;) {
+  	  //GPIO_DRV_TogglePinOutput(MCU_LED0);
+  	  GPIO_DRV_TogglePinOutput(MCU_LED1);
+  	  WAIT1_Waitms(500);
+    }
+
 
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
   /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/

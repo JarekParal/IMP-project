@@ -42,6 +42,7 @@
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\system\src\clock\MK60D10\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\system\inc\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\osa\inc\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\drivers\inc\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\CMSIS\Include\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\devices\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\devices\MK60D10\include\</Path>
@@ -56,7 +57,9 @@
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\devices\MK60D10\startup\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\devices\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\drivers\src\gpio\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\drivers\src\rtc\</Path>
+      <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\hal\src\gpio\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\hal\src\mcg\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\hal\src\osc\</Path>
       <Path>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\hal\src\port\</Path>
@@ -76,13 +79,19 @@
   <FILES>
     <GeneratedCs>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\Cpu.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\KSDK1.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\WAIT1.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\clockMan1.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\gpio1.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\hardware_init.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\osa1.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\pin_mux.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\devices\MK60D10\startup\system_MK60D10.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\devices\startup.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\drivers\src\gpio\fsl_gpio_common.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\drivers\src\gpio\fsl_gpio_driver.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\drivers\src\rtc\fsl_rtc_common.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\hal\src\gpio\fsl_gpio_hal.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\hal\src\mcg\fsl_mcg_hal.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\hal\src\mcg\fsl_mcg_hal_modes.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\hal\src\osc\fsl_osc_hal.c</PathName>
@@ -104,10 +113,14 @@
     </GeneratedCs>
     <GeneratedHs>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\Cpu.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\KSDK1.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\PE_KSDK_Types.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\PE_low_level_init.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\SDK\platform\devices\MK60D10\startup\system_MK60D10.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\WAIT1.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\board.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\clockMan1.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\gpio1.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\osa1.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\Generated_Code\pin_mux.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\CMSIS\Include\arm_common_tables.h</PathName>
@@ -123,6 +136,8 @@
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\devices\MK60D10\include\fsl_bitaccess.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\devices\fsl_device_registers.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\devices\startup.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\drivers\inc\fsl_gpio_driver.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\hal\inc\fsl_gpio_hal.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\hal\inc\fsl_mcg_hal.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\hal\inc\fsl_mcg_hal_modes.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_FreeRTOS_KSDK1.3_PEx\SDK\platform\hal\inc\fsl_osc_hal.h</PathName>
