@@ -53,13 +53,6 @@ const int LedPeriodAddConst = 100;
 */
 void PORTE_IRQHandler(void)
 {
-//  if(GPIO_DRV_IsPinIntPending(MCU_BUTTON0))
-//	  GPIO_DRV_TogglePinOutput(MCU_LED1);
-//  if(GPIO_DRV_IsPinIntPending(MCU_BUTTON1))
-//	  GPIO_DRV_TogglePinOutput(MCU_LED2);
-//  if(GPIO_DRV_IsPinIntPending(MCU_BUTTON2))
-//	  GPIO_DRV_TogglePinOutput(MCU_LED3);
-
 	if(GPIO_DRV_IsPinIntPending(MCU_BUTTON0))
 	  if(position > 1)
 		  position--;
@@ -89,7 +82,6 @@ void PORTE_IRQHandler(void)
 		  GPIO_DRV_WritePinOutput(MCU_LED3, 0);
 		  break;
 	}
-
 
 	/* Clear interrupt flag.*/
 	PORT_HAL_ClearPortIntFlag(PORTE_BASE_PTR);
