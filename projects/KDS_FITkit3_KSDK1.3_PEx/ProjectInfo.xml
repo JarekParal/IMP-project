@@ -79,27 +79,14 @@
   <FILES>
     <GeneratedCs>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\Cpu.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\FRTOS1.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\KSDK1.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\UTIL1.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\WAIT1.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\clockMan1.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\croutine.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\event_groups.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\gpio1.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\hardware_init.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\heap_1.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\heap_2.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\heap_3.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\heap_4.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\heap_5.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\list.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\osa1.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\pin_mux.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\port.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\queue.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\tasks.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\timers.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\devices\MK60D10\startup\system_MK60D10.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\devices\startup.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\drivers\src\gpio\fsl_gpio_common.c</PathName>
@@ -113,7 +100,7 @@
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\hal\src\rtc\fsl_rtc_hal.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\hal\src\sim\MK60D10\fsl_sim_hal_MK60D10.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\hal\src\uart\fsl_uart_hal.c</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\osa\src\fsl_os_abstraction_free_rtos.c</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\osa\src\fsl_os_abstraction_bm.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\system\src\clock\MK60D10\fsl_clock_MK60D10.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\system\src\clock\fsl_clock_manager.c</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\system\src\clock\fsl_clock_manager_common.c</PathName>
@@ -127,34 +114,17 @@
     </GeneratedCs>
     <GeneratedHs>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\Cpu.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\FRTOS1.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\FreeRTOS.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\FreeRTOSConfig.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\KSDK1.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\PE_KSDK_Types.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\PE_low_level_init.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\SDK\platform\devices\MK60D10\startup\system_MK60D10.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\StackMacros.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\UTIL1.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\WAIT1.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\board.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\clockMan1.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\croutine.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\deprecated_definitions.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\event_groups.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\gpio1.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\list.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\mpu_wrappers.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\osa1.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\pin_mux.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\portTicks.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\portable.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\portmacro.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\projdefs.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\queue.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\semphr.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\task.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\timers.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\CMSIS\Include\arm_common_tables.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\CMSIS\Include\arm_const_structs.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\CMSIS\Include\arm_math.h</PathName>
@@ -179,7 +149,7 @@
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\hal\inc\fsl_uart_hal.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\hal\src\sim\MK60D10\fsl_sim_hal_MK60D10.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\osa\inc\fsl_os_abstraction.h</PathName>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\osa\inc\fsl_os_abstraction_free_rtos.h</PathName>
+      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\osa\inc\fsl_os_abstraction_bm.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\system\inc\fsl_clock_manager.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\system\inc\fsl_interrupt_manager.h</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\system\src\clock\MK60D10\fsl_clock_MK60D10.h</PathName>
@@ -189,7 +159,6 @@
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Sources\Events.h</PathName>
     </GeneratedHs>
     <GeneratedASMs>
-      <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\Generated_Code\portasm.s</PathName>
       <PathName>F:\Jaris\Programovani\Mikroprocesory\_Track\_KDS\_IMP-project\projects\KDS_FITkit3_KSDK1.3_PEx\SDK\platform\devices\MK60D10\startup\gcc\startup_MK60D10.S</PathName>
     </GeneratedASMs>
   </FILES>

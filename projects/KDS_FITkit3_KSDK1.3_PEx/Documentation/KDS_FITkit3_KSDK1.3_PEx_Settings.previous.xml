@@ -238,8 +238,8 @@
       <RTOS_Version v="V9.0.0" />
       <Kinetis_SDK v="KSDK1" />
       <boolgroup name="Kinetis SDK" v="Enabled">
-        <Generate_PEX_RTOS_Macros v="yes" />
-        <Generate_OSA_Functions v="yes" />
+        <Generate_PEX_RTOS_Macros v="no" />
+        <Generate_OSA_Functions v="no" />
       </boolgroup>
       <group name="Custom Port">
         <Compiler v="automatic" />

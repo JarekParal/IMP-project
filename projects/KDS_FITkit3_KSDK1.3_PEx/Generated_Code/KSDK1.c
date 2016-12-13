@@ -5,9 +5,9 @@
 **     Processor   : MK60DN512VLQ10
 **     Component   : KinetisSDK
 **     Version     : Component 01.005, Driver 01.00, CPU db: 3.00.000
-**     Repository  : McuOnEclipse
+**     Repository  : My Components
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-12, 23:47, # CodeGen: 1
+**     Date/Time   : 2016-12-13, 05:14, # CodeGen: 6
 **     Abstract    :
 **
 **     Settings    :

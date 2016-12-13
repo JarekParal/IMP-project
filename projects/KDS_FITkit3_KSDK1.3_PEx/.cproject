@@ -55,7 +55,6 @@
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.1022622043" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="&quot;FSL_OSA_BM_TIMER_CONFIG=2&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;CPU_MK60DN512VLQ10&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;FSL_RTOS_FREE_RTOS&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.710454564" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/platform/hal/inc&quot;"/>
@@ -143,10 +142,10 @@
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
-		<configuration configurationName="Debug">
+		<configuration configurationName="Configuration">
 			<resource resourceType="PROJECT" workspacePath="/KDS_FITkit3_KSDK1.3_PEx"/>
 		</configuration>
-		<configuration configurationName="Configuration">
+		<configuration configurationName="Debug">
 			<resource resourceType="PROJECT" workspacePath="/KDS_FITkit3_KSDK1.3_PEx"/>
 		</configuration>
 	</storageModule>

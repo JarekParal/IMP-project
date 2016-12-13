@@ -36,20 +36,13 @@
 #include "gpio1.h"
 #include "WAIT1.h"
 #include "KSDK1.h"
-#include "FRTOS1.h"
 #include "UTIL1.h"
 #if CPU_INIT_CONFIG
   #include "Init_Config.h"
 #endif
 /* User includes (#include below this line is not maintained by Processor Expert) */
+extern int LedPeriod;
 
-static void BlinkyTask(void *pvParameters) {
-  (void)pvParameters; /* parameter not used */
-  for(;;) {
-    GPIO_DRV_TogglePinOutput(MCU_LED3);
-    vTaskDelay(500/portTICK_RATE_MS); /* wait for 500 ms */
-  }
-}
 
 /*lint -save  -e970 Disable MISRA rule (6.3) checking. */
 int main(void)
@@ -64,32 +57,15 @@ int main(void)
   /* Write your code here */
   /* For example: for(;;) { } */
 
-  GPIO_DRV_WritePinOutput(MCU_LED1, 1);
-  GPIO_DRV_WritePinOutput(MCU_LED2, 0);
   GPIO_DRV_WritePinOutput(MCU_LED0, 0);
+  GPIO_DRV_WritePinOutput(MCU_LED1, 1);
+  GPIO_DRV_WritePinOutput(MCU_LED2, 1);
   GPIO_DRV_WritePinOutput(MCU_LED3, 1);
 
-  if (xTaskCreate(
-        BlinkyTask,  /* pointer to the task */
-        "Blinky", /* task name for kernel awareness debugging */
-        configMINIMAL_STACK_SIZE, /* task stack size */
-        (void*)NULL, /* optional task startup argument */
-        1,  /* initial priority */
-        (xTaskHandle*)NULL /* optional task handle to create */
-      ) != pdPASS)
-	{
-	  for(;;){
-		  GPIO_DRV_TogglePinOutput(MCU_LED0);
-	  } /* error! probably out of memory */
-	}
-
-  vTaskStartScheduler(); /* start FreeRTOS scheduler, does usually not return! */
-
-//  for(;;) {
-//	  GPIO_DRV_TogglePinOutput(MCU_LED0);
-//	  GPIO_DRV_TogglePinOutput(MCU_LED1);
-//	  WAIT1_Waitms(500);
-//  }
+  for(;;) {
+	  GPIO_DRV_TogglePinOutput(MCU_LED0);
+	  WAIT1_Waitms(LedPeriod);
+  }
 
 
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/

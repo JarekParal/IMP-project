@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : KSDK 1.3.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-12, 23:47, # CodeGen: 1
+**     Date/Time   : 2016-12-13, 05:27, # CodeGen: 9
 **     Abstract    :
 **
 **     Settings    :
@@ -1951,28 +1951,28 @@ void init_gpio_pins(uint32_t instance)
       break;
     case GPIOE_IDX:                     /* GPIOE_IDX */
       /* Affects PORTE_PCR10 register */
-      PORT_HAL_SetPullMode(PORTE,10UL,kPortPullDown);
       PORT_HAL_SetMuxMode(PORTE,10UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullMode(PORTE,10UL,kPortPullUp);
       PORT_HAL_SetPullCmd(PORTE,10UL,true);
       PORT_HAL_SetPassiveFilterCmd(PORTE,10UL,true);
       /* Affects PORTE_PCR11 register */
-      PORT_HAL_SetPullMode(PORTE,11UL,kPortPullDown);
       PORT_HAL_SetMuxMode(PORTE,11UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullMode(PORTE,11UL,kPortPullUp);
       PORT_HAL_SetPullCmd(PORTE,11UL,true);
       PORT_HAL_SetPassiveFilterCmd(PORTE,11UL,true);
       /* Affects PORTE_PCR12 register */
-      PORT_HAL_SetPullMode(PORTE,12UL,kPortPullDown);
       PORT_HAL_SetMuxMode(PORTE,12UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullMode(PORTE,12UL,kPortPullUp);
       PORT_HAL_SetPullCmd(PORTE,12UL,true);
       PORT_HAL_SetPassiveFilterCmd(PORTE,12UL,true);
       /* Affects PORTE_PCR26 register */
-      PORT_HAL_SetPullMode(PORTE,26UL,kPortPullDown);
       PORT_HAL_SetMuxMode(PORTE,26UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullMode(PORTE,26UL,kPortPullUp);
       PORT_HAL_SetPullCmd(PORTE,26UL,true);
       PORT_HAL_SetPassiveFilterCmd(PORTE,26UL,true);
       /* Affects PORTE_PCR27 register */
-      PORT_HAL_SetPullMode(PORTE,27UL,kPortPullDown);
       PORT_HAL_SetMuxMode(PORTE,27UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullMode(PORTE,27UL,kPortPullUp);
       PORT_HAL_SetPullCmd(PORTE,27UL,true);
       PORT_HAL_SetPassiveFilterCmd(PORTE,27UL,true);
       break;
