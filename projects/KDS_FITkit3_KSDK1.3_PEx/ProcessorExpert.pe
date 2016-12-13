@@ -3,7 +3,7 @@
   <Header>
     <Name>KDS_FITkit3_KSDK1.3_PEx</Name>
     <SavedBy>noname</SavedBy>
-    <ModificationStamp>5</ModificationStamp>
+    <ModificationStamp>7</ModificationStamp>
     <Date>2016-12-12</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.2.RT7_b1550-0615</PEversion>
@@ -27556,8 +27556,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
+        <Index>1</Index>
+        <Value>false</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>GenerateOSAFunctions</ItemSymbol>
@@ -28227,7 +28227,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>2048</Value>
+        <Value>8192</Value>
         <Base>DEC</Base>
       </ItemState>
       <ItemState>

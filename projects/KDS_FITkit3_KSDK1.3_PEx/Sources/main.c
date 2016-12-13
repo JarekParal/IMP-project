@@ -69,7 +69,7 @@ int main(void)
   GPIO_DRV_WritePinOutput(MCU_LED0, 0);
   GPIO_DRV_WritePinOutput(MCU_LED3, 1);
 
-  if (FRTOS1_xTaskCreate(
+  if (xTaskCreate(
         BlinkyTask,  /* pointer to the task */
         "Blinky", /* task name for kernel awareness debugging */
         configMINIMAL_STACK_SIZE, /* task stack size */
