@@ -1,3 +1,8 @@
 projects/.metadata/
 projects/KDS_FRDM-KL46Z_FreeRTOS_KSDK2.0/Debug/
 projects/FDS_FITkit3_FreeRTOS_KSDK2.0/Debug/
+*.aux
+*.dvi
+*.out
+*.gz
+*.pdf
