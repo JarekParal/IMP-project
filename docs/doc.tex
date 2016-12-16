@@ -39,7 +39,7 @@
 % ---------------------------
 % ---------------------------
 \section{Úvod}
-Cílem projektu bylo nejprve naprogramovat jednoduchý bare-metal projekt (bez operačního systému), který by demonstroval využití základních komponent (tlačítko, LED, piezo) na výukovém kity FITkit3 (obrázek \ref{fitkit3-foto}). Následně tento projekt upravit tak, aby při obsluze těchto periferií používat operační systém \href{http://www.freertos.org/}{FreeRTOS}. Součástí projektu měla být i dokumentace popisující realizaci zadání.
+Cílem projektu bylo nejprve naprogramovat jednoduchý bare-metal projekt (bez operačního systému), který by demonstroval využití základních komponent (tlačítko, LED, piezo) na výukovém kitu FITkit3 (obrázek \ref{fitkit3-foto}). Následně tento projekt upravit tak, aby při obsluze těchto periferií používat operační systém \href{http://www.freertos.org/}{FreeRTOS}. Součástí projektu měla být i dokumentace popisující realizaci zadání.
 
 \subsection{Osobní cíl}
 Toto téma jsem si vybral, jelikož jsem v nedávné době dostal k dispozici několik vývojových kitů Freedom od firmy Freescale (dnes již NXP, v budoucnu Qualcomm) za účelem výuky programování mikrokontrolérů v robotickém kroužku na mé bývalé střední škole (SPŠ a VOŠ Brno, Sokolská).  Věděl jsem, že na FITkitu3 je osazen mikrokontrolér od Freescalu a připadalo mi to jako vhodná cesta k seznámení se do hloubky s platformou, kterou Freescale poskytuje. Domluvil jsem si i s zadavatelem projektu na využití Freedom kitů místo požadovaného FITkitu.
@@ -117,7 +117,7 @@ void PORTE_IRQHandler(void)
     LedPeriod += LedPeriodAddConst;
   if(GPIO_DRV_IsPinIntPending(MCU_BUTTON3))
     if(LedPeriod != 100)
-    LedPeriod -= LedPeriodAddConst;
+      LedPeriod -= LedPeriodAddConst;
 
   GPIO_DRV_WritePinOutput(MCU_LED1, 1);
   GPIO_DRV_WritePinOutput(MCU_LED2, 1);
@@ -142,13 +142,12 @@ void PORTE_IRQHandler(void)
 }  
 \end{lstlisting}
 
-Varianta projektu s FreeRTOS se lišila tím, že nevyužívala PEx a místo SDK v1.3 bylo použito SDK v2.0. Pro inicializaci komponent MCU jsem použil makra, která byla částečně přejata z PEx a přistupovali přímo k registrům. V  \verb|main| funkci proběhla inicializace všech komponent a dvou \verb|tasku|. První task \verb|led_task| zajišťoval blikání LED podle dané periody. Druhý task \verb|btn_task| zpracovával stisky tlačítek a následně upravoval periodu blikání LED v \verb|led_task| a nebo přepínal stav tří signalizačních LED (uživatel mohl určovat, která ze tří LED má svítit a pomocí dvou tlačítek posouval svítící LED doprava/doleva).
+Varianta projektu s FreeRTOS se lišila tím, že nevyužívala PEx a místo SDK v1.3 bylo použito SDK v2.0. Pro inicializaci komponent MCU jsem použil makra, která byla částečně přejata z PEx a přistupovali přímo k registrům. V  \verb|main| funkci proběhla inicializace všech komponent a dvou \verb|tasku|. První task \verb|led_task| zajišťoval blikání LED podle dané periody. Druhý task \verb|btn_task| zpracovával stisky tlačítek a následně upravoval periodu blikání LED v \verb|led_task| a nebo přepínal stav tří signalizačních LED (uživatel mohl určovat, která ze tří LED má svítit a pomocí dvou tlačítek posouval svítící LED doprava/doleva). Implementaci lze najít v projektu \href{https://github.com/JarekParal/IMP-project/tree/master/projects/FDS_FITkit3_FreeRTOS_KSDK2.0}{FDS\_FITkit3\_FreeRTOS\_KSDK2.0}.
 
 
 \begin{lstlisting}[language=c]
 int main(void) {
   // Init boadr ...
-  
   /* Create RTOS task */
   xTaskCreate(led_task, "led_task", configMINIMAL_STACK_SIZE, NULL, 
     led_task_PRIORITY, NULL);
@@ -254,9 +253,11 @@ int main() {
 \newpage
 
 \section{Závěr}
-Výsledkem mého projektu jsou dvě aplikace (bare-metal a s FreeRTOS), které řídí 4 LED osazené na FITkitu a zpracovávají vstupy z tlačítek (tím lze určit stav LED). Bare-metal varianta je asi o trochu jednoduší, což je způsobeno hlavně použitím PEx. Každá varianta má své výhody. V bate-metal aplikaci je použit interrupt pro snímání zmáčknutí tlačítka. Naopak ve FreeRTOSu jsem využil jedno vlákno pro snímání tlačítek a druhé vlákno pro ovládání periody svity LED. V RTOS variantě by se dali vlákna využít lépe avšak při omezením množství periferií na FITkity to nešlo snadno realizovat.
+Výsledkem mého projektu jsou dvě aplikace (bare-metal a s FreeRTOS), které řídí 4 LED osazené na FITkitu a zpracovávají vstupy z tlačítek (tím lze určit stav LED). Bare-metal varianta je asi o trochu jednoduší, což je způsobeno hlavně použitím PEx. Každá varianta má své výhody. V bate-metal aplikaci je použit interrupt pro snímání zmáčknutí tlačítka. Naopak ve FreeRTOSu jsem využil jedno vlákno pro snímání tlačítek a druhé vlákno pro ovládání periody blikání LED. V RTOS variantě by se dali vlákna využít lépe avšak po problémech se zprovozněním FreeRTOS a při omezením množství periferií na FITkity jsem další varianty nerealizoval.
 
-Video předvádějící fungování programu: \url{https://youtu.be/nl1vykVDIRg}
+Můžete se podívat na video předvádějící fungování programu: \url{https://youtu.be/nl1vykVDIRg}
+
+Celý projekt (s kompletními projekty) lze najít na GitHubu. Jsou zde dostupné i projekty, které jsem vypracoval pro FRDM-KL46Z: \url{https://github.com/JarekParal/IMP-project}
 
 
 \begin{figure}[h]
