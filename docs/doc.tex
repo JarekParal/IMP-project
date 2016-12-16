@@ -142,7 +142,7 @@ void PORTE_IRQHandler(void)
 }  
 \end{lstlisting}
 
-Varianta projektu s FreeRTOS se lišila tím, že nevyužívala PEx a místo SDK v1.3 bylo použito SDK v2.0. Pro inicializaci komponent MCU jsem použil makra, která byla částečně přejata z PEx a přistupovali přímo k registrům. V  \verb|main| funkci proběhla inicializace všech komponent a dvou \verb|tasku|. První task \verb|led_task| zajišťoval blikání LED podle dané periody. Druhý task \verb|btn_task| zpracovával stisky tlačítek a následně upravoval periodu blikání LED v \verb|led_task| a nebo přepínal stav tří signalizačních LED (uživatel mohl určovat, která ze tří LED má svítit a pomocí dvou tlačítek posouval svítící LED doprava/doleva). Implementaci lze najít v projektu \href{https://github.com/JarekParal/IMP-project/tree/master/projects/FDS_FITkit3_FreeRTOS_KSDK2.0}{FDS\_FITkit3\_FreeRTOS\_KSDK2.0}.
+Varianta projektu s FreeRTOS se lišila tím, že nevyužívala PEx a místo SDK v1.3 bylo použito SDK v2.0. Pro inicializaci komponent MCU jsem použil makra, která byla částečně přejata z PEx a přistupovali přímo k registrům. V  \verb|main| funkci proběhla inicializace všech komponent a dvou \verb|tasku|. První task \verb|led_task| zajišťoval blikání LED podle dané periody. Druhý task \verb|btn_task| zpracovával stisky tlačítek a následně upravoval periodu blikání LED v \verb|led_task| a nebo přepínal stav tří signalizačních LED (uživatel mohl určovat, která ze tří LED má svítit a pomocí dvou tlačítek posouval svítící LED doprava/doleva). Implementaci lze najít v projektu \href{https://github.com/JarekParal/IMP-project/tree/master/projects/KDS_FITkit3_FreeRTOS_KSDK2.0}{KDS\_FITkit3\_FreeRTOS\_KSDK2.0}.
 
 
 \begin{lstlisting}[language=c]
