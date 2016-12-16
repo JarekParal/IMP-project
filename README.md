@@ -1,4 +1,6 @@
-# IMP-project
+# IMP-project 2016
+
+Demo applications on learning kit FITkit 3. Bare-metal and FreeRTOS projects. Showing on base peripheries (LEDs, buttons).   
 
 For all project use Kinetis SDK: KSDK_1.3.0
 - Kinetis SDK Location - Environment variable: KSDK_PATH
@@ -52,6 +54,16 @@ Main projects:
 [MCU on Eclipse - First NXP Kinetis SDK Release: SDK V2.0 with Online On-Demand Package Builder](https://mcuoneclipse.com/2016/01/29/first-nxp-kinetis-sdk-release-sdk-v2-0-with-on-demand-package-builder/)
 
 [MCU on Eclipse - Mother of Components: Processor Expert with NXP Kinetis SDK V2.0 Projects](https://mcuoneclipse.com/2016/05/15/mother-of-components-processor-expert-with-nxp-kinetis-sdk-v2-0-projects/)
+
+[MCU on Eclipse - Tutorial: Freedom with FreeRTOS and Kinetis-L](https://mcuoneclipse.com/2012/09/29/tutorial-freedom-with-freertos-and-kinetis-l/)
+
+[MCU on Eclipse - Tutorial: FreeRTOS with the Kinetis SDK and Processor Expert](https://mcuoneclipse.com/2014/11/08/tutorial-freertos-with-the-kinetis-sdk-and-processor-expert/)
+
+[MCU on Eclipse - Tutorial: Using Processor Expert and FreeRTOS with Kinetis SDK V1.2](https://mcuoneclipse.com/2015/07/08/tutorial-using-processor-expert-and-freertos-with-kinetis-sdk-v1-2/)
+
+[MCU on Eclipse - Tutorial: FreeRTOS with NXP Kinetis SDK V2.0 and Processor Expert](https://mcuoneclipse.com/2016/05/20/tutorial-freertos-with-nxp-kinetis-sdk-v2-0-and-processor-expert/)
+
+
 
 
 [Element14 - FRDM-K64F + Kinetis Design Studio (KDS) - Tutorial: Toggling an RGB LED using interrupts](https://www.element14.com/community/community/designcenter/kinetis_kl2_freedom_board/blog/2014/08/03/frdm-k64f-kinetis-design-studio-kds-tutorial-toggling-an-rgb-led-using-interrupts)
