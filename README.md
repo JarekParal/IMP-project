@@ -5,11 +5,13 @@ For all project use Kinetis SDK: KSDK_1.3.0
 
 Processor Expert - Project Mode: Standalone
 
+[Documentation (Czech languagle)](https://github.com/JarekParal/IMP-project/releases/download/v1.0/doc.pdf)
+
+Video showing this project: https://youtu.be/nl1vykVDIRg
+
 Main projects:   
 [KDS_FITkit3_bare-metal_KSDK1.3_PEx](https://github.com/JarekParal/IMP-project/tree/master/projects/KDS_FITkit3_bare-metal_KSDK1.3_PEx)   
 [KDS_FITkit3_FreeRTOS_KSDK2.0](https://github.com/JarekParal/IMP-project/tree/master/projects/KDS_FITkit3_FreeRTOS_KSDK2.0)
-
-[Schema FRDM-KL46Z](http://cache.freescale.com/files/microcontrollers/hardware_tools/schematics/FRDM-KL46Z_SCH.pdf)
 
 ## Source
 
